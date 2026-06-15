@@ -1,0 +1,1719 @@
+[
+  {
+    "id": "c20dc183-cdf3-4a65-a87e-9d356c097238",
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma@campus.edu",
+    "age": 22,
+    "gender": "Female",
+    "department": "Computer Science",
+    "year": "First Year",
+    "semester": 1,
+    "hostel_status": "hostel",
+    "interests": [
+      "DSA",
+      "Web Development",
+      "Gaming"
+    ],
+    "skills": [
+      "C++",
+      "Node.js",
+      "Excel",
+      "Java",
+      "Machine Learning"
+    ],
+    "goals_text": [
+      "Learn DSA",
+      "Improve CGPA"
+    ],
+    "budget": 3383.22,
+    "personality_type": "ISTP",
+    "is_demo": true,
+    "demo_scenario": "first_year",
+    "clubs": [
+      "Coding Club",
+      "Hackathon Club"
+    ]
+  },
+  {
+    "id": "e01c1cb0-5fa6-413c-b83c-4414b8cbb520",
+    "name": "Priya Patel",
+    "email": "priya.patel@campus.edu",
+    "age": 22,
+    "gender": "Female",
+    "department": "Computer Science",
+    "year": "Fourth Year",
+    "semester": 7,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "ML",
+      "Web Development",
+      "Startups"
+    ],
+    "skills": [
+      "Java",
+      "React",
+      "Excel",
+      "Photography"
+    ],
+    "goals_text": [
+      "Get Internship",
+      "Build Portfolio"
+    ],
+    "budget": 13992.52,
+    "personality_type": "INFJ",
+    "is_demo": true,
+    "demo_scenario": "placement",
+    "clubs": [
+      "AI Club",
+      "Entrepreneurship Club"
+    ]
+  },
+  {
+    "id": "3fc00c60-d15e-483c-ae70-10753d4779b5",
+    "name": "Rohan Mehta",
+    "email": "rohan.mehta@campus.edu",
+    "age": 22,
+    "gender": "Non-binary",
+    "department": "Electronics",
+    "year": "Third Year",
+    "semester": 5,
+    "hostel_status": "hostel",
+    "interests": [
+      "Competitive Programming",
+      "Web Development",
+      "Gaming"
+    ],
+    "skills": [
+      "Machine Learning",
+      "React",
+      "Data Structures"
+    ],
+    "goals_text": [
+      "Hackathon Prep",
+      "Learn React"
+    ],
+    "budget": 6652.57,
+    "personality_type": "ENTP",
+    "is_demo": true,
+    "demo_scenario": "hackathon",
+    "clubs": [
+      "Hackathon Club",
+      "Coding Club",
+      "Robotics Club"
+    ]
+  },
+  {
+    "id": "6d6c7e00-370c-4a0c-b3d2-7ffec9e31c7b",
+    "name": "Sneha Reddy",
+    "email": "sneha.reddy@campus.edu",
+    "age": 19,
+    "gender": "Female",
+    "department": "Biotech",
+    "year": "First Year",
+    "semester": 1,
+    "hostel_status": "hostel",
+    "interests": [
+      "Fitness",
+      "Research",
+      "Music"
+    ],
+    "skills": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "JavaScript",
+      "Public Speaking"
+    ],
+    "goals_text": [
+      "Improve CGPA",
+      "Gym Transformation"
+    ],
+    "budget": 10471.86,
+    "personality_type": "ESTJ",
+    "is_demo": true,
+    "demo_scenario": "hostel_fresher",
+    "clubs": [
+      "Fitness Club",
+      "Music Club"
+    ]
+  },
+  {
+    "id": "dfcbf05d-11f0-4d7e-8683-edee49a47db7",
+    "name": "Arjun Iyer",
+    "email": "arjun.iyer@campus.edu",
+    "age": 19,
+    "gender": "Female",
+    "department": "Computer Science",
+    "year": "Third Year",
+    "semester": 5,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "ML",
+      "Research",
+      "AI"
+    ],
+    "skills": [
+      "Photography",
+      "Machine Learning",
+      "Excel",
+      "Python"
+    ],
+    "goals_text": [
+      "Learn ML",
+      "Build Portfolio"
+    ],
+    "budget": 12715.23,
+    "personality_type": "ENFP",
+    "is_demo": true,
+    "demo_scenario": "research",
+    "clubs": [
+      "Research Club",
+      "AI Club",
+      "Open Source Club"
+    ]
+  },
+  {
+    "id": "d5a36ff4-2f25-433b-92e3-845fd92d6751",
+    "name": "Samuel Lal",
+    "email": "kapuramruta@example.net",
+    "age": 19,
+    "gender": "Female",
+    "department": "Electrical",
+    "year": "Third Year",
+    "semester": 4,
+    "hostel_status": "hostel",
+    "interests": [
+      "Research",
+      "DSA",
+      "Finance",
+      "AI"
+    ],
+    "skills": [
+      "Machine Learning",
+      "Data Structures",
+      "Java"
+    ],
+    "goals_text": [
+      "Learn DSA",
+      "Learn React",
+      "Build Portfolio"
+    ],
+    "budget": 10895.27,
+    "personality_type": "ISTP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Literary Club"
+    ]
+  },
+  {
+    "id": "e287d40b-ea48-40ab-833c-fb5a31d4cb39",
+    "name": "Maanas Mahal",
+    "email": "edwinbalendra@example.net",
+    "age": 22,
+    "gender": "Female",
+    "department": "Computer Science",
+    "year": "First Year",
+    "semester": 1,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "Cybersecurity",
+      "Content Creation",
+      "Web Development"
+    ],
+    "skills": [
+      "Excel",
+      "SQL",
+      "C++",
+      "Node.js"
+    ],
+    "goals_text": [
+      "Improve CGPA",
+      "Build Startup",
+      "Learn React",
+      "Hackathon Prep"
+    ],
+    "budget": 12787.87,
+    "personality_type": "ESTJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Photography Club"
+    ]
+  },
+  {
+    "id": "b8c1423e-5092-4c79-bf0a-26b198184ccb",
+    "name": "Yatin Lanka",
+    "email": "usingh@example.com",
+    "age": 21,
+    "gender": "Female",
+    "department": "Biotech",
+    "year": "Third Year",
+    "semester": 3,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "UI/UX",
+      "ML",
+      "Photography"
+    ],
+    "skills": [
+      "React",
+      "JavaScript",
+      "Excel",
+      "Git",
+      "Public Speaking"
+    ],
+    "goals_text": [
+      "Build Portfolio",
+      "Hackathon Prep",
+      "Gym Transformation"
+    ],
+    "budget": 8205.65,
+    "personality_type": "INFJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Music Club",
+      "Research Club",
+      "Dance Club"
+    ]
+  },
+  {
+    "id": "e36f9314-b048-464a-9e50-cd092d41ce1f",
+    "name": "Anmol Patel",
+    "email": "wasonbaghyawati@example.org",
+    "age": 24,
+    "gender": "Male",
+    "department": "Electronics",
+    "year": "First Year",
+    "semester": 3,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "Public Speaking",
+      "Startups"
+    ],
+    "skills": [
+      "Machine Learning",
+      "Photography",
+      "Git",
+      "Node.js",
+      "C++"
+    ],
+    "goals_text": [
+      "Build Startup",
+      "Improve CGPA",
+      "Build Portfolio"
+    ],
+    "budget": 7752.7,
+    "personality_type": "ESFJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Photography Club"
+    ]
+  },
+  {
+    "id": "ac5c4783-db3f-487a-9b97-c71fe1376f7d",
+    "name": "Madhavi Joshi",
+    "email": "ghosewahab@example.org",
+    "age": 23,
+    "gender": "Male",
+    "department": "Chemical",
+    "year": "Fourth Year",
+    "semester": 4,
+    "hostel_status": "hostel",
+    "interests": [
+      "Music",
+      "UI/UX"
+    ],
+    "skills": [
+      "C++",
+      "Git",
+      "Python",
+      "React",
+      "Photography"
+    ],
+    "goals_text": [
+      "Build Portfolio",
+      "Learn DSA",
+      "Improve CGPA",
+      "Crack GATE"
+    ],
+    "budget": 9712.06,
+    "personality_type": "INTJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Dance Club"
+    ]
+  },
+  {
+    "id": "07089b74-5128-4648-a796-7f6914f22c5d",
+    "name": "Lakshmi Upadhyay",
+    "email": "bhargavaupadhriti@example.net",
+    "age": 24,
+    "gender": "Female",
+    "department": "Civil",
+    "year": "Second Year",
+    "semester": 8,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "Startups",
+      "ML"
+    ],
+    "skills": [
+      "Node.js",
+      "React",
+      "Public Speaking"
+    ],
+    "goals_text": [
+      "Build Startup",
+      "Get Internship",
+      "Improve CGPA",
+      "Learn ML"
+    ],
+    "budget": 2569.4,
+    "personality_type": "ISTP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "AI Club",
+      "Design Club",
+      "Research Club"
+    ]
+  },
+  {
+    "id": "097e1767-0527-40b6-9f67-44c059b15737",
+    "name": "Bhanumati Bhattacharyya",
+    "email": "mmukherjee@example.com",
+    "age": 20,
+    "gender": "Female",
+    "department": "Mechanical",
+    "year": "Second Year",
+    "semester": 1,
+    "hostel_status": "hostel",
+    "interests": [
+      "Cybersecurity",
+      "Public Speaking",
+      "ML"
+    ],
+    "skills": [
+      "JavaScript",
+      "Python",
+      "Git",
+      "Data Structures"
+    ],
+    "goals_text": [
+      "Get Internship",
+      "Crack GATE"
+    ],
+    "budget": 3748.57,
+    "personality_type": "INFP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Dance Club",
+      "Sports Club"
+    ]
+  },
+  {
+    "id": "bf1ee7b4-ea49-4c5b-ab67-0ddfa3479b68",
+    "name": "Maanas Sen",
+    "email": "dhruv89@example.org",
+    "age": 22,
+    "gender": "Male",
+    "department": "Electronics",
+    "year": "Fourth Year",
+    "semester": 6,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "Public Speaking",
+      "Finance"
+    ],
+    "skills": [
+      "Excel",
+      "Photography",
+      "Data Structures"
+    ],
+    "goals_text": [
+      "Crack GATE",
+      "Learn ML",
+      "Get Internship",
+      "Learn React"
+    ],
+    "budget": 1594.49,
+    "personality_type": "INFJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Research Club",
+      "Robotics Club"
+    ]
+  },
+  {
+    "id": "d04d1045-52bf-4d6f-97a7-6f4579a8dbf4",
+    "name": "Ekansh Kurian",
+    "email": "ssant@example.net",
+    "age": 24,
+    "gender": "Female",
+    "department": "Electrical",
+    "year": "Second Year",
+    "semester": 1,
+    "hostel_status": "hostel",
+    "interests": [
+      "Dance",
+      "Web Development"
+    ],
+    "skills": [
+      "Git",
+      "Excel"
+    ],
+    "goals_text": [
+      "Crack GATE",
+      "Learn ML"
+    ],
+    "budget": 6933.26,
+    "personality_type": "INFP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Design Club",
+      "Finance Club"
+    ]
+  },
+  {
+    "id": "630a3b76-497a-4a0a-a3d5-7cbb9174af78",
+    "name": "Robert Dayal",
+    "email": "lekha31@example.net",
+    "age": 21,
+    "gender": "Male",
+    "department": "MBA",
+    "year": "Third Year",
+    "semester": 1,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "DSA",
+      "Photography"
+    ],
+    "skills": [
+      "SQL",
+      "React",
+      "Python",
+      "Machine Learning",
+      "Photography"
+    ],
+    "goals_text": [
+      "Get Internship",
+      "Crack GATE",
+      "Build Portfolio",
+      "Improve CGPA"
+    ],
+    "budget": 9192.99,
+    "personality_type": "INFP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Entrepreneurship Club",
+      "Fitness Club"
+    ]
+  },
+  {
+    "id": "7cecc571-2248-4037-9985-80a7a47c22b7",
+    "name": "Ucchal Das",
+    "email": "boraumang@example.com",
+    "age": 21,
+    "gender": "Male",
+    "department": "Biotech",
+    "year": "Second Year",
+    "semester": 3,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "DSA",
+      "Fitness",
+      "Web Development"
+    ],
+    "skills": [
+      "Machine Learning",
+      "JavaScript"
+    ],
+    "goals_text": [
+      "Learn DSA",
+      "Build Portfolio",
+      "Build Startup",
+      "Get Internship"
+    ],
+    "budget": 3288.44,
+    "personality_type": "INFP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Research Club",
+      "Photography Club",
+      "Music Club"
+    ]
+  },
+  {
+    "id": "19fbfda2-104e-4c88-9a8d-4ada386944d1",
+    "name": "Harshil Nagy",
+    "email": "vamakshi58@example.org",
+    "age": 23,
+    "gender": "Female",
+    "department": "Electronics",
+    "year": "Second Year",
+    "semester": 7,
+    "hostel_status": "hostel",
+    "interests": [
+      "UI/UX",
+      "Web Development",
+      "Startups"
+    ],
+    "skills": [
+      "SQL",
+      "React",
+      "Python",
+      "Data Structures"
+    ],
+    "goals_text": [
+      "Improve CGPA",
+      "Get Internship"
+    ],
+    "budget": 10103.49,
+    "personality_type": "ESFJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Finance Club"
+    ]
+  },
+  {
+    "id": "df3bf4a6-dc76-4b82-bab4-025bb547a258",
+    "name": "Chakradhar Sur",
+    "email": "varenyawalia@example.com",
+    "age": 19,
+    "gender": "Female",
+    "department": "Electronics",
+    "year": "Third Year",
+    "semester": 1,
+    "hostel_status": "hostel",
+    "interests": [
+      "Dance",
+      "Finance"
+    ],
+    "skills": [
+      "JavaScript",
+      "Node.js",
+      "Java"
+    ],
+    "goals_text": [
+      "Get Internship",
+      "Learn DSA",
+      "Improve CGPA"
+    ],
+    "budget": 14738.33,
+    "personality_type": "INFP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Design Club",
+      "Hackathon Club"
+    ]
+  },
+  {
+    "id": "5f583c4e-c2a9-40b6-b2ff-fac40cc3e485",
+    "name": "Siddharth Choudhary",
+    "email": "amaramaster@example.org",
+    "age": 23,
+    "gender": "Female",
+    "department": "Mechanical",
+    "year": "Third Year",
+    "semester": 6,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "DSA",
+      "AI",
+      "Competitive Programming",
+      "Dance"
+    ],
+    "skills": [
+      "Node.js",
+      "Public Speaking"
+    ],
+    "goals_text": [
+      "Learn React",
+      "Crack GATE",
+      "Get Internship"
+    ],
+    "budget": 14761.57,
+    "personality_type": "ESTJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "AI Club",
+      "Music Club"
+    ]
+  },
+  {
+    "id": "e671df7b-2587-4038-b7a5-eec245c2ade8",
+    "name": "Hiral Ratti",
+    "email": "adweta27@example.com",
+    "age": 20,
+    "gender": "Female",
+    "department": "Chemical",
+    "year": "Second Year",
+    "semester": 8,
+    "hostel_status": "hostel",
+    "interests": [
+      "Content Creation",
+      "Research",
+      "Gaming",
+      "Web Development"
+    ],
+    "skills": [
+      "Photography",
+      "C++"
+    ],
+    "goals_text": [
+      "Crack GATE",
+      "Build Portfolio",
+      "Learn DSA"
+    ],
+    "budget": 14462.68,
+    "personality_type": "INTJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Music Club"
+    ]
+  },
+  {
+    "id": "9b92ddc1-95ab-46fe-98d3-3450f327d280",
+    "name": "Lucky Mutti",
+    "email": "nitara61@example.net",
+    "age": 24,
+    "gender": "Female",
+    "department": "Computer Science",
+    "year": "First Year",
+    "semester": 5,
+    "hostel_status": "hostel",
+    "interests": [
+      "Content Creation",
+      "Public Speaking",
+      "AI"
+    ],
+    "skills": [
+      "React",
+      "Java"
+    ],
+    "goals_text": [
+      "Gym Transformation",
+      "Learn DSA",
+      "Build Startup",
+      "Learn ML"
+    ],
+    "budget": 1497.9,
+    "personality_type": "INTJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Sports Club",
+      "AI Club",
+      "Entrepreneurship Club"
+    ]
+  },
+  {
+    "id": "73d0788d-19a0-4465-b7eb-160b2df11291",
+    "name": "Anirudh Basu",
+    "email": "amaira02@example.net",
+    "age": 24,
+    "gender": "Male",
+    "department": "Biotech",
+    "year": "Fourth Year",
+    "semester": 5,
+    "hostel_status": "hostel",
+    "interests": [
+      "Gaming",
+      "Content Creation",
+      "Research",
+      "Finance"
+    ],
+    "skills": [
+      "Public Speaking",
+      "JavaScript",
+      "SQL",
+      "React",
+      "Java"
+    ],
+    "goals_text": [
+      "Learn DSA",
+      "Crack GATE",
+      "Learn React",
+      "Gym Transformation"
+    ],
+    "budget": 12716.86,
+    "personality_type": "INFP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Hackathon Club",
+      "Coding Club",
+      "Photography Club"
+    ]
+  },
+  {
+    "id": "6c6f6e2c-c2e3-41b5-a7f1-e225d1f58672",
+    "name": "Lekha Nath",
+    "email": "raiyutika@example.net",
+    "age": 19,
+    "gender": "Female",
+    "department": "Mechanical",
+    "year": "First Year",
+    "semester": 5,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "Public Speaking",
+      "ML",
+      "Web Development"
+    ],
+    "skills": [
+      "Java",
+      "Machine Learning",
+      "Python",
+      "JavaScript"
+    ],
+    "goals_text": [
+      "Build Portfolio",
+      "Learn DSA",
+      "Get Internship"
+    ],
+    "budget": 9325.05,
+    "personality_type": "ENTP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Literary Club"
+    ]
+  },
+  {
+    "id": "2617dbf9-782a-4595-b489-0d1a047e6797",
+    "name": "Farhan Magar",
+    "email": "tristan11@example.net",
+    "age": 22,
+    "gender": "Male",
+    "department": "Electrical",
+    "year": "Third Year",
+    "semester": 2,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "Content Creation",
+      "Dance"
+    ],
+    "skills": [
+      "Data Structures",
+      "C++",
+      "Node.js"
+    ],
+    "goals_text": [
+      "Learn DSA",
+      "Improve CGPA",
+      "Get Internship"
+    ],
+    "budget": 1012.69,
+    "personality_type": "ESTJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "AI Club"
+    ]
+  },
+  {
+    "id": "dbb60028-6bf2-409c-821e-c49c3cd5ae92",
+    "name": "Krisha Lata",
+    "email": "dakshagoyal@example.org",
+    "age": 23,
+    "gender": "Female",
+    "department": "Biotech",
+    "year": "First Year",
+    "semester": 5,
+    "hostel_status": "hostel",
+    "interests": [
+      "Cybersecurity",
+      "ML",
+      "Music",
+      "Startups"
+    ],
+    "skills": [
+      "Data Structures",
+      "JavaScript",
+      "Git"
+    ],
+    "goals_text": [
+      "Get Internship",
+      "Crack GATE",
+      "Learn React",
+      "Gym Transformation"
+    ],
+    "budget": 7391.41,
+    "personality_type": "ESFJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Dance Club",
+      "Robotics Club"
+    ]
+  },
+  {
+    "id": "5a583a2e-d5da-4b27-8143-5449df758808",
+    "name": "Adweta Chacko",
+    "email": "duaekiya@example.com",
+    "age": 23,
+    "gender": "Male",
+    "department": "Mechanical",
+    "year": "First Year",
+    "semester": 1,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "Dance",
+      "Finance",
+      "Startups"
+    ],
+    "skills": [
+      "Machine Learning",
+      "SQL"
+    ],
+    "goals_text": [
+      "Learn DSA",
+      "Improve CGPA",
+      "Build Portfolio",
+      "Hackathon Prep"
+    ],
+    "budget": 8897.92,
+    "personality_type": "INTJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Fitness Club"
+    ]
+  },
+  {
+    "id": "0a6a337f-309c-459e-9337-a48d4af3f8a0",
+    "name": "Xalak Walia",
+    "email": "devkhalsa@example.org",
+    "age": 23,
+    "gender": "Female",
+    "department": "Electronics",
+    "year": "Fourth Year",
+    "semester": 7,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "DSA",
+      "Cybersecurity",
+      "Content Creation",
+      "Finance"
+    ],
+    "skills": [
+      "JavaScript",
+      "Machine Learning",
+      "Java"
+    ],
+    "goals_text": [
+      "Build Portfolio",
+      "Gym Transformation"
+    ],
+    "budget": 9623.93,
+    "personality_type": "ENTP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Entrepreneurship Club"
+    ]
+  },
+  {
+    "id": "0e9c64c2-f53d-4558-ae6d-f849f1a6296e",
+    "name": "Faraj Thaman",
+    "email": "ekani92@example.net",
+    "age": 22,
+    "gender": "Male",
+    "department": "Electrical",
+    "year": "Fourth Year",
+    "semester": 3,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "Dance",
+      "ML"
+    ],
+    "skills": [
+      "Data Structures",
+      "Machine Learning",
+      "Node.js"
+    ],
+    "goals_text": [
+      "Improve CGPA",
+      "Get Internship"
+    ],
+    "budget": 3018.65,
+    "personality_type": "ESFJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "AI Club",
+      "Finance Club"
+    ]
+  },
+  {
+    "id": "427cb1dc-b6d3-447e-82c3-812209e075b7",
+    "name": "Anmol Dora",
+    "email": "dubeysamar@example.org",
+    "age": 21,
+    "gender": "Male",
+    "department": "Civil",
+    "year": "Second Year",
+    "semester": 6,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "Competitive Programming",
+      "UI/UX",
+      "Content Creation"
+    ],
+    "skills": [
+      "Python",
+      "Data Structures",
+      "Node.js",
+      "JavaScript",
+      "Public Speaking"
+    ],
+    "goals_text": [
+      "Improve CGPA",
+      "Learn DSA",
+      "Get Internship",
+      "Crack GATE"
+    ],
+    "budget": 3747.96,
+    "personality_type": "ENFP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Photography Club",
+      "Dance Club",
+      "Debate Club"
+    ]
+  },
+  {
+    "id": "2ec4ef33-a55e-4198-ba15-8ceb5ca66d02",
+    "name": "Devansh Edwin",
+    "email": "ayushman48@example.org",
+    "age": 18,
+    "gender": "Male",
+    "department": "Computer Science",
+    "year": "Second Year",
+    "semester": 5,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "Fitness",
+      "Finance",
+      "DSA",
+      "Startups"
+    ],
+    "skills": [
+      "Python",
+      "Git",
+      "Machine Learning"
+    ],
+    "goals_text": [
+      "Get Internship",
+      "Learn React",
+      "Gym Transformation",
+      "Learn ML"
+    ],
+    "budget": 8526.42,
+    "personality_type": "ISTP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Open Source Club",
+      "Photography Club"
+    ]
+  },
+  {
+    "id": "8ca461a6-54c0-454d-86d1-dc449672995c",
+    "name": "Ronith Comar",
+    "email": "ijani@example.org",
+    "age": 18,
+    "gender": "Female",
+    "department": "Computer Science",
+    "year": "First Year",
+    "semester": 7,
+    "hostel_status": "hostel",
+    "interests": [
+      "Content Creation",
+      "Competitive Programming",
+      "Music",
+      "UI/UX"
+    ],
+    "skills": [
+      "React",
+      "Node.js",
+      "Photography",
+      "Machine Learning"
+    ],
+    "goals_text": [
+      "Improve CGPA",
+      "Build Startup"
+    ],
+    "budget": 9538.83,
+    "personality_type": "ESTJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Design Club",
+      "Finance Club"
+    ]
+  },
+  {
+    "id": "b4b93004-7aa0-4662-bffa-111d0331d1af",
+    "name": "Unni Bhatia",
+    "email": "pavani98@example.com",
+    "age": 18,
+    "gender": "Male",
+    "department": "Electrical",
+    "year": "Third Year",
+    "semester": 2,
+    "hostel_status": "hostel",
+    "interests": [
+      "Fitness",
+      "Research"
+    ],
+    "skills": [
+      "Python",
+      "React",
+      "Node.js"
+    ],
+    "goals_text": [
+      "Gym Transformation",
+      "Get Internship"
+    ],
+    "budget": 8585.23,
+    "personality_type": "ESTJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Music Club",
+      "Entrepreneurship Club"
+    ]
+  },
+  {
+    "id": "00b8f111-c6e8-4e11-af91-a50fe80450cd",
+    "name": "Jhalak Iyer",
+    "email": "sai70@example.org",
+    "age": 23,
+    "gender": "Male",
+    "department": "MBA",
+    "year": "Second Year",
+    "semester": 1,
+    "hostel_status": "hostel",
+    "interests": [
+      "Photography",
+      "AI"
+    ],
+    "skills": [
+      "React",
+      "Data Structures",
+      "Python",
+      "Java",
+      "C++"
+    ],
+    "goals_text": [
+      "Learn DSA",
+      "Learn React"
+    ],
+    "budget": 14197.69,
+    "personality_type": "ESFJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Research Club"
+    ]
+  },
+  {
+    "id": "a289dbb1-e767-454f-b13e-f670ade895a9",
+    "name": "Wakeeta Borra",
+    "email": "lpathak@example.net",
+    "age": 19,
+    "gender": "Male",
+    "department": "Computer Science",
+    "year": "Second Year",
+    "semester": 8,
+    "hostel_status": "hostel",
+    "interests": [
+      "Dance",
+      "Startups"
+    ],
+    "skills": [
+      "Java",
+      "SQL",
+      "Machine Learning"
+    ],
+    "goals_text": [
+      "Learn DSA",
+      "Gym Transformation",
+      "Build Startup"
+    ],
+    "budget": 12800.45,
+    "personality_type": "ESTJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Robotics Club",
+      "Fitness Club",
+      "Photography Club"
+    ]
+  },
+  {
+    "id": "95aab9c3-1e7a-43d9-9aea-17a47a3d9184",
+    "name": "Darika Mital",
+    "email": "nazarethcharvi@example.com",
+    "age": 23,
+    "gender": "Female",
+    "department": "Civil",
+    "year": "First Year",
+    "semester": 3,
+    "hostel_status": "hostel",
+    "interests": [
+      "Competitive Programming",
+      "Public Speaking",
+      "Web Development"
+    ],
+    "skills": [
+      "C++",
+      "Java"
+    ],
+    "goals_text": [
+      "Hackathon Prep",
+      "Build Startup",
+      "Learn DSA"
+    ],
+    "budget": 4565.44,
+    "personality_type": "ESTJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Coding Club"
+    ]
+  },
+  {
+    "id": "2e871eba-a1a4-45ab-812f-e8117b6e1971",
+    "name": "Unnati Rama",
+    "email": "nseth@example.org",
+    "age": 20,
+    "gender": "Male",
+    "department": "Chemical",
+    "year": "Fourth Year",
+    "semester": 5,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "Cybersecurity",
+      "Public Speaking"
+    ],
+    "skills": [
+      "Java",
+      "Excel",
+      "C++",
+      "Photography"
+    ],
+    "goals_text": [
+      "Learn ML",
+      "Improve CGPA",
+      "Get Internship"
+    ],
+    "budget": 10624.89,
+    "personality_type": "ENTP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Finance Club",
+      "Debate Club",
+      "Coding Club"
+    ]
+  },
+  {
+    "id": "1a47868e-256e-4c32-aaab-5755e067c45f",
+    "name": "Ekiya Keer",
+    "email": "nattsaumya@example.com",
+    "age": 19,
+    "gender": "Male",
+    "department": "MBA",
+    "year": "Second Year",
+    "semester": 6,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "Fitness",
+      "AI"
+    ],
+    "skills": [
+      "C++",
+      "Java",
+      "JavaScript",
+      "Node.js"
+    ],
+    "goals_text": [
+      "Get Internship",
+      "Build Portfolio"
+    ],
+    "budget": 2797.25,
+    "personality_type": "ESTJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Fitness Club",
+      "Finance Club",
+      "Hackathon Club"
+    ]
+  },
+  {
+    "id": "4eda6505-141f-45ed-b969-e0eafed085f2",
+    "name": "Qarin Sahota",
+    "email": "gulatifiyaz@example.org",
+    "age": 22,
+    "gender": "Female",
+    "department": "MBA",
+    "year": "Third Year",
+    "semester": 2,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "Cybersecurity",
+      "Music"
+    ],
+    "skills": [
+      "Python",
+      "JavaScript",
+      "Data Structures",
+      "Java"
+    ],
+    "goals_text": [
+      "Learn React",
+      "Get Internship"
+    ],
+    "budget": 2640.6,
+    "personality_type": "ESTJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Literary Club"
+    ]
+  },
+  {
+    "id": "c3e80db5-e4e1-4b02-a4e3-701d9351de81",
+    "name": "Upasna Natt",
+    "email": "dayalsamuel@example.org",
+    "age": 23,
+    "gender": "Female",
+    "department": "MBA",
+    "year": "Second Year",
+    "semester": 2,
+    "hostel_status": "hostel",
+    "interests": [
+      "Startups",
+      "AI",
+      "Cybersecurity",
+      "Photography"
+    ],
+    "skills": [
+      "Data Structures",
+      "Excel",
+      "Machine Learning",
+      "Photography",
+      "Java"
+    ],
+    "goals_text": [
+      "Learn DSA",
+      "Build Startup",
+      "Learn ML",
+      "Gym Transformation"
+    ],
+    "budget": 11710.74,
+    "personality_type": "INFP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Design Club",
+      "Research Club",
+      "Photography Club"
+    ]
+  },
+  {
+    "id": "3936eacd-1a25-4b7a-83a4-25c0414749ba",
+    "name": "Pratyush Mammen",
+    "email": "farischakraborty@example.org",
+    "age": 23,
+    "gender": "Male",
+    "department": "Civil",
+    "year": "Second Year",
+    "semester": 2,
+    "hostel_status": "hostel",
+    "interests": [
+      "DSA",
+      "Music"
+    ],
+    "skills": [
+      "Node.js",
+      "Public Speaking",
+      "C++",
+      "React",
+      "Python"
+    ],
+    "goals_text": [
+      "Build Startup",
+      "Learn ML"
+    ],
+    "budget": 5246.61,
+    "personality_type": "INFJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Hackathon Club",
+      "Dance Club"
+    ]
+  },
+  {
+    "id": "5eb09744-585e-4d0c-84af-0feb89390da0",
+    "name": "Jackson Raman",
+    "email": "gaurianand@example.com",
+    "age": 18,
+    "gender": "Male",
+    "department": "MBA",
+    "year": "Second Year",
+    "semester": 8,
+    "hostel_status": "hostel",
+    "interests": [
+      "Content Creation",
+      "Cybersecurity",
+      "Fitness"
+    ],
+    "skills": [
+      "Git",
+      "C++",
+      "SQL",
+      "Node.js"
+    ],
+    "goals_text": [
+      "Learn React",
+      "Build Portfolio"
+    ],
+    "budget": 7366.59,
+    "personality_type": "INFP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Open Source Club",
+      "Photography Club",
+      "Research Club"
+    ]
+  },
+  {
+    "id": "bb7fad0d-f3aa-4e63-b6ee-98eb0036c948",
+    "name": "Yashoda Lal",
+    "email": "upillai@example.net",
+    "age": 22,
+    "gender": "Female",
+    "department": "Biotech",
+    "year": "Third Year",
+    "semester": 2,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "UI/UX",
+      "Cybersecurity",
+      "Startups",
+      "Web Development"
+    ],
+    "skills": [
+      "React",
+      "Data Structures"
+    ],
+    "goals_text": [
+      "Gym Transformation",
+      "Hackathon Prep"
+    ],
+    "budget": 13286.18,
+    "personality_type": "INFP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Dance Club"
+    ]
+  },
+  {
+    "id": "c26687d2-5deb-4fd6-89f8-575e1a170d06",
+    "name": "Zinal Mangal",
+    "email": "baghyawatibabu@example.com",
+    "age": 22,
+    "gender": "Male",
+    "department": "Computer Science",
+    "year": "First Year",
+    "semester": 5,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "Competitive Programming",
+      "Cybersecurity"
+    ],
+    "skills": [
+      "Photography",
+      "Machine Learning",
+      "C++"
+    ],
+    "goals_text": [
+      "Learn DSA",
+      "Build Startup",
+      "Learn React"
+    ],
+    "budget": 5633.87,
+    "personality_type": "INFJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Entrepreneurship Club",
+      "Design Club",
+      "Sports Club"
+    ]
+  },
+  {
+    "id": "31bfa65d-7c86-493e-98b6-3e129cd01046",
+    "name": "Omkaar Dutt",
+    "email": "gauravrao@example.net",
+    "age": 21,
+    "gender": "Male",
+    "department": "Electronics",
+    "year": "First Year",
+    "semester": 3,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "Fitness",
+      "UI/UX",
+      "Content Creation",
+      "Gaming"
+    ],
+    "skills": [
+      "Machine Learning",
+      "SQL",
+      "Node.js"
+    ],
+    "goals_text": [
+      "Learn DSA",
+      "Crack GATE",
+      "Improve CGPA",
+      "Get Internship"
+    ],
+    "budget": 3246.78,
+    "personality_type": "ENFP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Fitness Club",
+      "Entrepreneurship Club"
+    ]
+  },
+  {
+    "id": "75235f8e-dcbe-47f0-9071-aa464b7574f8",
+    "name": "Chasmum Parmar",
+    "email": "amarakeer@example.net",
+    "age": 21,
+    "gender": "Female",
+    "department": "MBA",
+    "year": "Fourth Year",
+    "semester": 6,
+    "hostel_status": "hostel",
+    "interests": [
+      "ML",
+      "Gaming"
+    ],
+    "skills": [
+      "Excel",
+      "SQL",
+      "Java",
+      "Public Speaking"
+    ],
+    "goals_text": [
+      "Build Portfolio",
+      "Get Internship",
+      "Learn DSA",
+      "Crack GATE"
+    ],
+    "budget": 3969.15,
+    "personality_type": "INTJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Design Club",
+      "Robotics Club"
+    ]
+  },
+  {
+    "id": "a34b4320-f05f-4d32-ba3a-3dc9779959c8",
+    "name": "Warda Chaudhari",
+    "email": "tprabhakar@example.com",
+    "age": 23,
+    "gender": "Male",
+    "department": "Mechanical",
+    "year": "Second Year",
+    "semester": 4,
+    "hostel_status": "hostel",
+    "interests": [
+      "Content Creation",
+      "Competitive Programming"
+    ],
+    "skills": [
+      "SQL",
+      "Excel",
+      "React"
+    ],
+    "goals_text": [
+      "Gym Transformation",
+      "Learn React",
+      "Learn ML"
+    ],
+    "budget": 1780.01,
+    "personality_type": "ESTJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Finance Club",
+      "Debate Club"
+    ]
+  },
+  {
+    "id": "33e7faba-5ee4-43c1-8e03-b23fced3ade2",
+    "name": "Naksh Aurora",
+    "email": "utak@example.net",
+    "age": 19,
+    "gender": "Female",
+    "department": "Computer Science",
+    "year": "Fourth Year",
+    "semester": 4,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "DSA",
+      "Cybersecurity"
+    ],
+    "skills": [
+      "React",
+      "Machine Learning",
+      "Git"
+    ],
+    "goals_text": [
+      "Crack GATE",
+      "Build Portfolio",
+      "Build Startup",
+      "Learn DSA"
+    ],
+    "budget": 10286.2,
+    "personality_type": "ISTP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Research Club",
+      "Literary Club"
+    ]
+  },
+  {
+    "id": "394c8f91-8f39-4a41-9e3b-2100061e6d6f",
+    "name": "Prisha Raman",
+    "email": "vinaya58@example.net",
+    "age": 21,
+    "gender": "Male",
+    "department": "MBA",
+    "year": "Second Year",
+    "semester": 4,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "DSA",
+      "Startups"
+    ],
+    "skills": [
+      "Excel",
+      "Git",
+      "Python",
+      "Data Structures"
+    ],
+    "goals_text": [
+      "Improve CGPA",
+      "Learn DSA",
+      "Gym Transformation"
+    ],
+    "budget": 1251.91,
+    "personality_type": "INFJ",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Coding Club",
+      "Fitness Club"
+    ]
+  },
+  {
+    "id": "bb37bcca-c95e-4346-9335-ba592eb114ff",
+    "name": "Yochana Nath",
+    "email": "sai38@example.org",
+    "age": 23,
+    "gender": "Non-binary",
+    "department": "Mechanical",
+    "year": "Second Year",
+    "semester": 8,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "Gaming",
+      "DSA"
+    ],
+    "skills": [
+      "Java",
+      "Node.js",
+      "JavaScript",
+      "Git"
+    ],
+    "goals_text": [
+      "Crack GATE",
+      "Learn DSA",
+      "Learn React",
+      "Build Portfolio"
+    ],
+    "budget": 14481.04,
+    "personality_type": "INFP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Music Club"
+    ]
+  },
+  {
+    "id": "71ab5199-7e4f-4326-9a7a-64145cd1ba20",
+    "name": "Bhavna Goda",
+    "email": "golawidisha@example.org",
+    "age": 23,
+    "gender": "Female",
+    "department": "Computer Science",
+    "year": "Third Year",
+    "semester": 8,
+    "hostel_status": "day_scholar",
+    "interests": [
+      "Startups",
+      "DSA",
+      "Photography",
+      "AI"
+    ],
+    "skills": [
+      "Node.js",
+      "C++",
+      "Data Structures"
+    ],
+    "goals_text": [
+      "Hackathon Prep",
+      "Crack GATE",
+      "Learn React",
+      "Build Startup"
+    ],
+    "budget": 10118.44,
+    "personality_type": "INFP",
+    "is_demo": false,
+    "demo_scenario": null,
+    "clubs": [
+      "Entrepreneurship Club",
+      "Hackathon Club"
+    ]
+  }
+]

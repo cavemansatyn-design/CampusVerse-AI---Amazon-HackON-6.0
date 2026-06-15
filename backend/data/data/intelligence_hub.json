@@ -1,0 +1,125 @@
+{
+  "announcements": [
+    {
+      "title": "Amazon ML Challenge 2026",
+      "content": "Amazon ML Challenge registrations close tomorrow. Top teams win internships!",
+      "source": "email",
+      "category": "competition",
+      "priority": "high",
+      "deadline": "2026-06-15T17:55:01.231099+00:00",
+      "tags": [
+        "ML",
+        "Amazon",
+        "Hackathon"
+      ]
+    },
+    {
+      "title": "Placement Drive - Google",
+      "content": "Google campus placement drive on Friday. CGPA cutoff 7.5. Register by Wednesday.",
+      "source": "notice",
+      "category": "placement",
+      "priority": "high",
+      "deadline": "2026-06-17T17:55:01.231099+00:00",
+      "tags": [
+        "Placement",
+        "Google",
+        "Career"
+      ]
+    },
+    {
+      "title": "Robotics Club Workshop",
+      "content": "Arduino and sensor workshop this Saturday. Free kits for first 30 members.",
+      "source": "club",
+      "category": "workshop",
+      "priority": "medium",
+      "tags": [
+        "Robotics",
+        "Arduino"
+      ]
+    },
+    {
+      "title": "Hostel Block B Water Shutdown",
+      "content": "Water supply will be off Tuesday 9 AM - 2 PM for maintenance.",
+      "source": "whatsapp",
+      "category": "notice",
+      "priority": "low",
+      "tags": [
+        "Hostel"
+      ]
+    },
+    {
+      "title": "Hackathon 48 - Registrations Open",
+      "content": "48-hour hackathon next weekend. Themes: AI, Sustainability, FinTech.",
+      "source": "email",
+      "category": "hackathon",
+      "priority": "high",
+      "deadline": "2026-06-19T17:55:01.231099+00:00",
+      "tags": [
+        "Hackathon",
+        "AI"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "DSA Contest",
+      "event_type": "competition",
+      "start_time": "2026-06-16T17:55:01.231099+00:00",
+      "location": "CS Lab 3",
+      "tags": [
+        "DSA",
+        "Programming"
+      ]
+    },
+    {
+      "title": "Startup Pitch Night",
+      "event_type": "workshop",
+      "start_time": "2026-06-18T17:55:01.231099+00:00",
+      "location": "Auditorium",
+      "tags": [
+        "Startup",
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "title": "Yoga Session",
+      "event_type": "wellness",
+      "start_time": "2026-06-15T17:55:01.231099+00:00",
+      "location": "Sports Complex",
+      "tags": [
+        "Fitness",
+        "Wellness"
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "title": "Summer Internship - Microsoft",
+      "description": "SWE intern roles open for CS/ECE students.",
+      "opportunity_type": "internship",
+      "company": "Microsoft",
+      "skills_required": [
+        "Python",
+        "DSA"
+      ],
+      "relevance_tags": [
+        "Career",
+        "Tech"
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "description": "Paid research fellowship in AI/ML lab.",
+      "opportunity_type": "research",
+      "company": "Campus Lab",
+      "skills_required": [
+        "ML",
+        "Python"
+      ],
+      "relevance_tags": [
+        "Research",
+        "AI"
+      ]
+    }
+  ]
+}

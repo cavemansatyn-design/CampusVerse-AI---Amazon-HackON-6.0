@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CampusOS - Landing Page</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Hanken+Grotesk:wght@400;500;700&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-fixed": "#001e2c",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed-dim": "#e9c400",
+                        "error": "#ba1a1a",
+                        "background": "#f9f9f7",
+                        "on-primary-fixed": "#221b00",
+                        "inverse-primary": "#e9c400",
+                        "surface": "#f9f9f7",
+                        "secondary-fixed-dim": "#c6c6c6",
+                        "on-secondary-fixed": "#1b1b1b",
+                        "secondary": "#5e5e5e",
+                        "on-tertiary-fixed-variant": "#004c69",
+                        "inverse-surface": "#2f3130",
+                        "inverse-on-surface": "#f1f1ef",
+                        "on-error-container": "#93000a",
+                        "on-background": "#1a1c1b",
+                        "surface-dim": "#dadad8",
+                        "on-tertiary-container": "#00668a",
+                        "tertiary-fixed-dim": "#7ad0ff",
+                        "surface-container-low": "#f4f4f2",
+                        "surface-tint": "#705d00",
+                        "secondary-container": "#e2e2e2",
+                        "on-surface-variant": "#4d4732",
+                        "on-primary": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "on-surface": "#1a1c1b",
+                        "surface-variant": "#e2e3e1",
+                        "on-primary-container": "#705e00",
+                        "surface-container-highest": "#e2e3e1",
+                        "surface-container": "#eeeeec",
+                        "tertiary": "#00668a",
+                        "primary": "#705d00",
+                        "surface-bright": "#f9f9f7",
+                        "primary-fixed": "#ffe16d",
+                        "surface-container-high": "#e8e8e6",
+                        "tertiary-fixed": "#c3e8ff",
+                        "on-primary-fixed-variant": "#544600",
+                        "tertiary-container": "#aee0ff",
+                        "error-container": "#ffdad6",
+                        "on-secondary-fixed-variant": "#474747",
+                        "on-secondary-container": "#646464",
+                        "primary-container": "#ffd700",
+                        "outline-variant": "#d0c6ab",
+                        "outline": "#7e775f",
+                        "secondary-fixed": "#e2e2e2",
+                        "on-tertiary": "#ffffff",
+                        "on-error": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "unit": "8px",
+                        "shadow-offset": "8px",
+                        "border-width": "4px",
+                        "margin-mobile": "16px",
+                        "margin-desktop": "40px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "label-sm": ["Space Mono"],
+                        "label-bold": ["Space Mono"],
+                        "display-lg": ["Anton"],
+                        "body-md": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "headline-md": ["Anton"],
+                        "headline-lg-mobile": ["Anton"],
+                        "headline-lg": ["Anton"]
+                    },
+                    "fontSize": {
+                        "label-sm": ["12px", { "lineHeight": "1.2", "fontWeight": "400" }],
+                        "label-bold": ["14px", { "lineHeight": "1.2", "fontWeight": "700" }],
+                        "display-lg": ["72px", { "lineHeight": "1.0", "letterSpacing": "0.02em", "fontWeight": "400" }],
+                        "body-md": ["16px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "500" }],
+                        "headline-md": ["32px", { "lineHeight": "1.2", "fontWeight": "400" }],
+                        "headline-lg-mobile": ["32px", { "lineHeight": "1.1", "fontWeight": "400" }],
+                        "headline-lg": ["48px", { "lineHeight": "1.1", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .halftone-bg {
+            background-image: radial-gradient(circle, #dadad8 2px, transparent 2px);
+            background-size: 16px 16px;
+        }
+        .comic-border {
+            border: var(--border-width) solid #1a1c1b;
+        }
+        .comic-shadow {
+            box-shadow: var(--shadow-offset) var(--shadow-offset) 0px 0px #1a1c1b;
+            transition: all 0.2s ease-in-out;
+        }
+        .comic-shadow:hover {
+            box-shadow: 12px 12px 0px 0px #1a1c1b;
+            transform: translate(-4px, -4px);
+        }
+        .comic-shadow:active {
+            box-shadow: 0px 0px 0px 0px #1a1c1b;
+            transform: translate(8px, 8px);
+        }
+        .comic-panel {
+            background-color: var(--surface-container-lowest);
+            border: var(--border-width) solid #1a1c1b;
+            box-shadow: var(--shadow-offset) var(--shadow-offset) 0px 0px #1a1c1b;
+        }
+        .btn-primary {
+            background-color: var(--primary-container);
+            color: var(--on-primary-container);
+            border: var(--border-width) solid #1a1c1b;
+            box-shadow: var(--shadow-offset) var(--shadow-offset) 0px 0px #1a1c1b;
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+            text-transform: uppercase;
+            transition: all 0.1s ease-in-out;
+        }
+        .btn-primary:active {
+            box-shadow: 0px 0px 0px 0px #1a1c1b;
+            transform: translate(var(--shadow-offset), var(--shadow-offset));
+        }
+        .burst-badge {
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+            background-color: var(--error);
+            color: var(--on-error);
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+        }
+        .tilt-card {
+            transform: rotate(-1deg);
+        }
+        .tilt-card-reverse {
+            transform: rotate(1deg);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md overflow-x-hidden halftone-bg">
+<!-- TopAppBar -->
+<header class="flex justify-between items-center w-full px-margin-desktop py-4 bg-surface dark:bg-surface border-b-4 border-on-background dark:border-on-surface shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] sticky top-0 z-50">
+<div class="flex items-center gap-8">
+<a class="text-headline-lg font-headline-lg uppercase text-primary dark:text-primary-fixed-dim tracking-tight" href="#">CampusOS</a>
+<nav class="hidden md:flex gap-6">
+<a class="font-label-bold text-label-bold text-secondary dark:text-secondary-fixed hover:bg-primary-container hover:text-on-primary-container transition-all px-2 py-1 comic-border" href="#">Dashboard</a>
+<a class="font-label-bold text-label-bold text-secondary dark:text-secondary-fixed hover:bg-primary-container hover:text-on-primary-container transition-all px-2 py-1 comic-border" href="#">Classes</a>
+<a class="font-label-bold text-label-bold text-secondary dark:text-secondary-fixed hover:bg-primary-container hover:text-on-primary-container transition-all px-2 py-1 comic-border" href="#">Clubs</a>
+<a class="font-label-bold text-label-bold text-secondary dark:text-secondary-fixed hover:bg-primary-container hover:text-on-primary-container transition-all px-2 py-1 comic-border" href="#">Events</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="w-10 h-10 flex items-center justify-center comic-panel rounded-none hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined" data-icon="search">search</span>
+</button>
+<button class="w-10 h-10 flex items-center justify-center comic-panel rounded-none hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<button class="w-10 h-10 flex items-center justify-center comic-panel rounded-none hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+</button>
+</div>
+</header>
+<main class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop py-12 flex flex-col gap-gutter">
+<!-- Hero Section -->
+<section class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center min-h-[716px]">
+<div class="lg:col-span-5 flex flex-col gap-6 z-10">
+<div class="inline-block bg-primary-container text-on-primary-container font-label-bold text-label-bold px-4 py-2 border-4 border-on-background shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] self-start transform -rotate-2">
+                    V1.0 NOW LIVE
+                </div>
+<h1 class="font-display-lg text-display-lg uppercase leading-[0.9] text-on-background mix-blend-multiply">
+                    Your Entire <br/>
+<span class="text-tertiary">Student Life.</span><br/>
+                    Organized by <span class="bg-primary-container px-2 border-4 border-on-background inline-block transform rotate-1">AI.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-md bg-surface p-4 border-4 border-on-background shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                    Ditch the chaos. CampusOS is your all-in-one survival kit for academics, social life, and everything in between. Powered by next-gen AI to keep you ahead of the curve.
+                </p>
+<div class="flex flex-wrap gap-4 mt-4">
+<button class="btn-primary px-8 py-4 text-label-bold font-label-bold text-lg">
+                        Get Started
+                    </button>
+<button class="bg-surface text-on-background border-4 border-on-background px-8 py-4 font-label-bold text-label-bold text-lg comic-shadow hover:bg-tertiary-container transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined">play_arrow</span> Watch Demo
+                    </button>
+</div>
+</div>
+<div class="lg:col-span-7 relative h-[500px] lg:h-[700px] comic-panel p-2 tilt-card overflow-hidden group">
+<div class="absolute inset-0 bg-primary-container opacity-20 halftone-bg z-0"></div>
+<img alt="A vibrant, comic-book style illustration of a student character surrounded by floating holographic UI elements, glowing neon pink and cyan against a harsh yellow halftone background. Thick black outlines and action speed lines radiate from the center." class="w-full h-full object-cover object-center border-4 border-on-background relative z-10 filter contrast-125 saturate-150 transition-transform duration-500 group-hover:scale-105" data-alt="A vibrant, comic-book style illustration of a student character surrounded by floating holographic UI elements, glowing neon pink and cyan against a harsh yellow halftone background. Thick black outlines and action speed lines radiate from the center, conveying a sense of high energy and futuristic technology in a pop-art aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuArxLpAcpEERF3aoyTi5Ym_X8CMl3GNYo4xr_PU6eWaa68J8BWqQrXzq6fhMwvegW4ueIxUy2m9By9G7Y_0dkQZiuk_uBdRy5Q7ViaCQCtLirYaWzoz1b9zayYLn86VZv_hrCMcyky1N_uBHL-xvi1B36nFnjdKYvxdo0xoPa4fYtJLP9ukpyTzW1wGG948WPir4t8FddsMcgHPLKmUhessek_85al7KAwgxItgCavMjke5DmK9jK-ZuVP65D6lDVoEmkrx14WADtE"/>
+<!-- Floating Elements -->
+<div class="absolute top-10 left-10 bg-surface border-4 border-on-background p-4 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] z-20 animate-bounce">
+<span class="material-symbols-outlined text-4xl text-error">calendar_today</span>
+<p class="font-label-bold text-sm mt-2">Exam in 2h!</p>
+</div>
+<div class="absolute bottom-20 right-10 bg-surface border-4 border-on-background p-4 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] z-20 tilt-card-reverse">
+<span class="material-symbols-outlined text-4xl text-tertiary">chat_bubble</span>
+<p class="font-label-bold text-sm mt-2">Squad Chat (5)</p>
+</div>
+</div>
+</section>
+<!-- Feature Panels -->
+<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-12">
+<!-- Panel 1 -->
+<div class="comic-panel flex flex-col tilt-card-reverse h-full">
+<div class="h-48 border-b-4 border-on-background overflow-hidden relative bg-tertiary-container">
+<div class="absolute inset-0 halftone-bg opacity-50"></div>
+<img alt="Close up of a stylized digital planner interface floating in space, rendered with thick comic-style black outlines and bright, flat colors like cyan and yellow. A glowing AI robot avatar points at a highlighted calendar date." class="w-full h-full object-cover mix-blend-luminosity opacity-80" data-alt="Close up of a stylized digital planner interface floating in space, rendered with thick comic-style black outlines and bright, flat colors like cyan and yellow. A glowing AI robot avatar points at a highlighted calendar date, set against a background of dynamic action lines and comic book sound effect typography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuASwD6bd8e4j7Qv95L0Asc7A2PXPTwf020sgxjk24RNh8TSwhNp1rkyFHpZSwu3tY2h7nRVC2o9c25t1QDPadDFChdgzvWxsax3jLrymRBDDvivukExFTtQmr4k7dxl1-4FNwll2VDq69zl1VtgfKbPnlDQdsVA8v6AIhE7Ew55MYiPr94ipQuOLdoSCGKbFsMAjf7aE9ENybuxpxUL8gow4M6frS8CZ5wYhMHSnyJrsbDoNgUjAovceivhg5qtJQ25Hfjq29pP0Go"/>
+<div class="absolute bottom-4 left-4 bg-primary-container border-4 border-on-background px-3 py-1 font-label-bold shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                        CORE FEATURE
+                    </div>
+</div>
+<div class="p-6 flex-grow flex flex-col justify-between">
+<div>
+<h3 class="font-headline-md text-headline-md uppercase mb-4 text-on-background">AI Planning</h3>
+<p class="font-body-md text-on-surface-variant mb-6">
+                            Your personal AI sidekick analyzes your syllabus, sleep schedule, and social life to build the ultimate master plan. Never miss a deadline again.
+                        </p>
+</div>
+<button class="self-start font-label-bold text-label-bold uppercase flex items-center gap-2 hover:text-tertiary transition-colors">
+                        Learn More <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Panel 2 -->
+<div class="comic-panel flex flex-col h-full transform translate-y-4">
+<div class="h-48 border-b-4 border-on-background overflow-hidden relative bg-primary-container">
+<div class="absolute inset-0 halftone-bg opacity-50"></div>
+<img alt="A vibrant, pop-art style illustration of a digital storefront with neon signs and floating 3D objects like sneakers and textbooks. The scene is framed like a comic book panel with thick black borders." class="w-full h-full object-cover mix-blend-luminosity opacity-80" data-alt="A vibrant, pop-art style illustration of a digital storefront with neon signs and floating 3D objects like sneakers and textbooks. The scene is framed like a comic book panel with thick black borders, utilizing a high-contrast palette of yellow, cyan, and magenta to emphasize a bustling campus marketplace." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwVUKFFwpkooFLpI6qOlca4Cm7YQ-mEftSbPNL7c2oKLzJe-uMFuJv7r5pCBEjL_EqS7ej1aGDcv9E6_zBfPDeFweBX0xqrTQo5mtM_6HMHVKYTlkIoexj4RGI2rQH9RtOr9srOoF1rUIbGNcOdqMlU9e3OjH9oD7n3d1iM0tK2LE1DU6idGlE0koPMcJBpEE5zFGa1i4esSmo6A3XbPu05MEwrsYsy6GBasQXSgaeWwR3FpDCdW5dpkqG2CCKL8OxsV0TCMqqMWI"/>
+</div>
+<div class="p-6 flex-grow flex flex-col justify-between">
+<div>
+<h3 class="font-headline-md text-headline-md uppercase mb-4 text-on-background">Campus Marketplace</h3>
+<p class="font-body-md text-on-surface-variant mb-6">
+                            Buy, sell, and trade with your peers. From textbooks to concert tickets, the campus economy is now in your pocket.
+                        </p>
+</div>
+<button class="self-start font-label-bold text-label-bold uppercase flex items-center gap-2 hover:text-tertiary transition-colors">
+                        Explore Shop <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Panel 3 -->
+<div class="comic-panel flex flex-col tilt-card h-full">
+<div class="h-48 border-b-4 border-on-background overflow-hidden relative bg-error-container">
+<div class="absolute inset-0 halftone-bg opacity-50"></div>
+<img alt="A comic-style illustration of a leaderboard with character avatars, rendered with dramatic lighting and bold 'POW!' style graphics. Thick black shadows and bright red accents dominate." class="w-full h-full object-cover mix-blend-luminosity opacity-80" data-alt="A comic-style illustration of a leaderboard with character avatars, rendered with dramatic lighting and bold 'POW!' style graphics. Thick black shadows and bright red accents dominate the scene, creating a sense of competitive energy and high-stakes achievement in a pop-art visual style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeH6tM3y8aSRwzkhOnPrb0_g3fBPMnB1qcqWb1Axdmc9MsJM_xXp5X_1Pz7sKnQ9zHoPWEThYEuPkdSjxghPay_cb_T-QZe2Du1QVPFvQvPpsK4xZ6efGNGvz96iCAqgI-IoDfnTnAFB1K_Esc16Su43q9LObnuCd8pZThN5i4Ja432Q8yriV8egpDx7-FhNVyugEaCoLzi4ZT4DRDiKJoC-h0mGk2eRcx1HePZnMwjYAGrnaWiJvM1gbtmiXVAZkhPySuudQ0iWE"/>
+<div class="absolute top-4 right-4 w-12 h-12 burst-badge flex items-center justify-center text-xs animate-pulse">
+                            NEW
+                        </div>
+</div>
+<div class="p-6 flex-grow flex flex-col justify-between">
+<div>
+<h3 class="font-headline-md text-headline-md uppercase mb-4 text-on-background">Wall of Fame</h3>
+<p class="font-body-md text-on-surface-variant mb-6">
+                            Level up your student status. Earn XP for attending classes, joining clubs, and dominating the campus leaderboard.
+                        </p>
+</div>
+<button class="self-start font-label-bold text-label-bold uppercase flex items-center gap-2 hover:text-tertiary transition-colors">
+                        View Rankings <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</section>
+<!-- CTA Banner -->
+<section class="mt-12 mb-24">
+<div class="bg-primary border-4 border-on-background p-12 relative overflow-hidden comic-shadow flex flex-col md:flex-row items-center justify-between gap-8">
+<div class="absolute inset-0 halftone-bg opacity-20 mix-blend-overlay"></div>
+<div class="relative z-10 max-w-2xl text-on-primary">
+<h2 class="font-display-lg text-headline-lg uppercase mb-4 drop-shadow-[4px_4px_0px_rgba(0,0,0,1)]">Ready to Hack Your Degree?</h2>
+<p class="font-body-lg text-lg mb-0 font-bold bg-on-background text-primary-fixed inline-block px-4 py-2 border-2 border-on-background">
+                        Join 10,000+ students already living the future.
+                    </p>
+</div>
+<div class="relative z-10 flex-shrink-0">
+<button class="bg-surface text-on-background border-4 border-on-background px-10 py-6 font-label-bold text-label-bold text-xl uppercase comic-shadow hover:bg-tertiary-container hover:text-on-tertiary-container transition-colors transform hover:-rotate-2">
+                        Create Account
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Simple Footer -->
+<footer class="bg-on-background text-surface py-12 border-t-8 border-primary-container">
+<div class="max-w-7xl mx-auto px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="col-span-2">
+<h4 class="font-headline-md text-headline-md uppercase text-primary-fixed mb-4">CampusOS</h4>
+<p class="font-body-md text-surface-variant max-w-sm">The ultimate operating system for modern student life. Built with comic book energy and AI brains.</p>
+</div>
+<div>
+<h5 class="font-label-bold text-label-bold uppercase mb-4 text-surface-dim">Legal</h5>
+<ul class="space-y-2 font-body-md text-surface-variant">
+<li><a class="hover:text-primary-fixed transition-colors" href="#">Terms of Service</a></li>
+<li><a class="hover:text-primary-fixed transition-colors" href="#">Privacy Policy</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-label-bold text-label-bold uppercase mb-4 text-surface-dim">Connect</h5>
+<div class="flex gap-4">
+<a class="w-10 h-10 bg-surface text-on-background flex items-center justify-center border-2 border-surface hover:bg-primary-fixed transition-colors" href="#"><span class="material-symbols-outlined">share</span></a>
+<a class="w-10 h-10 bg-surface text-on-background flex items-center justify-center border-2 border-surface hover:bg-primary-fixed transition-colors" href="#"><span class="material-symbols-outlined">mail</span></a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CampusOS Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Hanken+Grotesk:wght@400;500;700&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-fixed": "#001e2c",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed-dim": "#e9c400",
+                        "error": "#ba1a1a",
+                        "background": "#f9f9f7",
+                        "on-primary-fixed": "#221b00",
+                        "inverse-primary": "#e9c400",
+                        "surface": "#f9f9f7",
+                        "secondary-fixed-dim": "#c6c6c6",
+                        "on-secondary-fixed": "#1b1b1b",
+                        "secondary": "#5e5e5e",
+                        "on-tertiary-fixed-variant": "#004c69",
+                        "inverse-surface": "#2f3130",
+                        "inverse-on-surface": "#f1f1ef",
+                        "on-error-container": "#93000a",
+                        "on-background": "#1a1c1b",
+                        "surface-dim": "#dadad8",
+                        "on-tertiary-container": "#00668a",
+                        "tertiary-fixed-dim": "#7ad0ff",
+                        "surface-container-low": "#f4f4f2",
+                        "surface-tint": "#705d00",
+                        "secondary-container": "#e2e2e2",
+                        "on-surface-variant": "#4d4732",
+                        "on-primary": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "on-surface": "#1a1c1b",
+                        "surface-variant": "#e2e3e1",
+                        "on-primary-container": "#705e00",
+                        "surface-container-highest": "#e2e3e1",
+                        "surface-container": "#eeeeec",
+                        "tertiary": "#00668a",
+                        "primary": "#705d00",
+                        "surface-bright": "#f9f9f7",
+                        "primary-fixed": "#ffe16d",
+                        "surface-container-high": "#e8e8e6",
+                        "tertiary-fixed": "#c3e8ff",
+                        "on-primary-fixed-variant": "#544600",
+                        "tertiary-container": "#aee0ff",
+                        "error-container": "#ffdad6",
+                        "on-secondary-fixed-variant": "#474747",
+                        "on-secondary-container": "#646464",
+                        "primary-container": "#ffd700",
+                        "outline-variant": "#d0c6ab",
+                        "outline": "#7e775f",
+                        "secondary-fixed": "#e2e2e2",
+                        "on-tertiary": "#ffffff",
+                        "on-error": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "unit": "8px",
+                        "shadow-offset": "8px",
+                        "border-width": "4px",
+                        "margin-mobile": "16px",
+                        "margin-desktop": "40px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "label-sm": ["Space Mono"],
+                        "label-bold": ["Space Mono"],
+                        "display-lg": ["Anton"],
+                        "body-md": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "headline-md": ["Anton"],
+                        "headline-lg-mobile": ["Anton"],
+                        "headline-lg": ["Anton"]
+                    },
+                    "fontSize": {
+                        "label-sm": ["12px", { "lineHeight": "1.2", "fontWeight": "400" }],
+                        "label-bold": ["14px", { "lineHeight": "1.2", "fontWeight": "700" }],
+                        "display-lg": ["72px", { "lineHeight": "1.0", "letterSpacing": "0.02em", "fontWeight": "400" }],
+                        "body-md": ["16px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "500" }],
+                        "headline-md": ["32px", { "lineHeight": "1.2", "fontWeight": "400" }],
+                        "headline-lg-mobile": ["32px", { "lineHeight": "1.1", "fontWeight": "400" }],
+                        "headline-lg": ["48px", { "lineHeight": "1.1", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .halftone-bg {
+            background-image: radial-gradient(circle, #1a1c1b 1px, transparent 1px);
+            background-size: 10px 10px;
+            background-position: 0 0;
+            opacity: 0.05;
+        }
+        .comic-panel {
+            background-color: #ffffff;
+            border: 4px solid #1a1c1b;
+            box-shadow: 8px 8px 0px 0px rgba(0,0,0,1);
+            transition: all 0.2s ease-in-out;
+        }
+        .comic-panel:hover {
+            transform: translate(-4px, -4px);
+            box-shadow: 12px 12px 0px 0px rgba(0,0,0,1);
+        }
+        .comic-button {
+            border: 4px solid #1a1c1b;
+            box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+            transition: all 0.1s ease-in-out;
+        }
+        .comic-button:hover {
+            transform: translate(2px, 2px);
+            box-shadow: 2px 2px 0px 0px rgba(0,0,0,1);
+        }
+        .comic-button:active {
+            transform: translate(4px, 4px);
+            box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+        }
+        .speech-bubble::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 20px;
+            border-width: 15px 15px 0;
+            border-style: solid;
+            border-color: #ffffff transparent transparent transparent;
+            z-index: 10;
+        }
+        .speech-bubble::before {
+            content: '';
+            position: absolute;
+            bottom: -22px;
+            left: 17px;
+            border-width: 19px 19px 0;
+            border-style: solid;
+            border-color: #1a1c1b transparent transparent transparent;
+            z-index: 9;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md min-h-screen overflow-x-hidden relative">
+<!-- Halftone Overlay -->
+<div class="fixed inset-0 halftone-bg pointer-events-none z-0"></div>
+<!-- TopAppBar -->
+<header class="bg-surface border-b-4 border-on-background shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex justify-between items-center w-full px-margin-desktop py-4 sticky top-0 z-50">
+<div class="flex items-center gap-8">
+<h1 class="text-headline-lg font-headline-lg uppercase text-primary">CampusOS</h1>
+<nav class="hidden md:flex gap-6 items-center">
+<a class="text-primary font-bold border-b-4 border-primary pb-1 hover:bg-primary-container hover:text-on-primary-container transition-all px-2" href="#">Dashboard</a>
+<a class="text-secondary hover:bg-primary-container hover:text-on-primary-container transition-all px-2 font-body-lg" href="#">Classes</a>
+<a class="text-secondary hover:bg-primary-container hover:text-on-primary-container transition-all px-2 font-body-lg" href="#">Clubs</a>
+<a class="text-secondary hover:bg-primary-container hover:text-on-primary-container transition-all px-2 font-body-lg" href="#">Events</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="comic-button bg-primary-container p-2 rounded-none flex items-center justify-center">
+<span class="material-symbols-outlined text-on-primary-container">search</span>
+</button>
+<button class="comic-button bg-surface p-2 rounded-none flex items-center justify-center">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<button class="comic-button bg-surface p-2 rounded-none flex items-center justify-center">
+<span class="material-symbols-outlined">person</span>
+</button>
+</div>
+</header>
+<div class="flex h-[calc(100vh-80px)]">
+<!-- SideNavBar -->
+<aside class="hidden md:flex flex-col h-full border-r-4 border-black bg-surface w-64 flex-shrink-0 relative z-40">
+<div class="p-6 border-b-4 border-black bg-primary-container text-on-primary-container text-center">
+<div class="w-20 h-20 bg-surface border-4 border-black mx-auto mb-3 overflow-hidden">
+<img alt="A high-contrast stylized portrait of a youthful student with an expressive face, rendered in a pop-art comic book style with bold black outlines and vibrant colors, fitting a dynamic UI aesthetic." class="w-full h-full object-cover" data-alt="A high-contrast stylized portrait of a youthful student with an expressive face, rendered in a pop-art comic book style with bold black outlines and vibrant colors, fitting a dynamic UI aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBc1UF172T1N6VWZVGURFb1IQyJpKF0dHMaj9cw9y5JZ1bYFFxQNPPphIXB6oePAuZ9eQEUFTw-gtqAne3OcixhuLu6Mx1IlxcytwO2kUo2q9CxSxauZph-uJJjTU5r3rjVEObJQrldS9DeAwiTAmcoSroaMl9_9S2IbIAtsaX1GoYCaETwEQZOSONfE_e-O8irJ8HEqJIqotRHuwDxgFGOr9Tb3QBcApxzjc9yPfm_tMJvjuPAJtvMwVvMV4qI3ZAGnI1SdeHUh-c"/>
+</div>
+<h2 class="font-headline-md text-headline-md uppercase">Hero Unleashed</h2>
+<p class="font-label-bold text-label-bold text-primary">Level 42 Student</p>
+<button class="comic-button bg-primary text-on-primary w-full mt-4 py-2 font-label-bold uppercase">Save Progress</button>
+</div>
+<nav class="flex-1 py-4">
+<a class="flex items-center gap-3 px-6 py-3 bg-primary-container text-on-primary-container border-y-4 border-on-background font-bold hover:translate-x-2 transition-transform" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="font-label-bold uppercase">Mission Control</span>
+</a>
+<a class="flex items-center gap-3 px-6 py-3 text-on-surface-variant hover:bg-surface-container-high hover:translate-x-2 transition-transform" href="#">
+<span class="material-symbols-outlined">chat_bubble</span>
+<span class="font-label-bold uppercase">The Gutter</span>
+</a>
+<a class="flex items-center gap-3 px-6 py-3 text-on-surface-variant hover:bg-surface-container-high hover:translate-x-2 transition-transform" href="#">
+<span class="material-symbols-outlined">school</span>
+<span class="font-label-bold uppercase">Academy</span>
+</a>
+<a class="flex items-center gap-3 px-6 py-3 text-on-surface-variant hover:bg-surface-container-high hover:translate-x-2 transition-transform" href="#">
+<span class="material-symbols-outlined">group</span>
+<span class="font-label-bold uppercase">Squads</span>
+</a>
+<a class="flex items-center gap-3 px-6 py-3 text-on-surface-variant hover:bg-surface-container-high hover:translate-x-2 transition-transform" href="#">
+<span class="material-symbols-outlined">inventory_2</span>
+<span class="font-label-bold uppercase">Vault</span>
+</a>
+</nav>
+<div class="mt-auto border-t-4 border-black bg-surface-container-low">
+<a class="flex items-center gap-3 px-6 py-3 text-on-surface-variant hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span class="font-label-bold uppercase">Settings</span>
+</a>
+<a class="flex items-center gap-3 px-6 py-3 text-on-surface-variant hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined">logout</span>
+<span class="font-label-bold uppercase">Logout</span>
+</a>
+</div>
+</aside>
+<!-- Main Content -->
+<main class="flex-1 overflow-y-auto p-margin-mobile md:p-margin-desktop relative z-10">
+<div class="max-w-6xl mx-auto space-y-gutter">
+<!-- Hero Section -->
+<div class="comic-panel p-8 bg-primary-container relative overflow-hidden -rotate-1">
+<div class="absolute right-0 top-0 w-1/3 h-full opacity-20 pointer-events-none">
+<svg class="w-full h-full" preserveaspectratio="none" viewbox="0 0 100 100">
+<path d="M0,100 L100,0 L100,100 Z" fill="#1a1c1b"></path>
+</svg>
+</div>
+<div class="relative z-10">
+<h2 class="font-display-lg text-display-lg text-on-primary-container uppercase leading-none drop-shadow-[4px_4px_0px_rgba(0,0,0,1)]">Welcome Back,<br/>Julian!</h2>
+<p class="font-body-lg mt-4 max-w-xl text-on-primary-fixed">Ready to tackle today's quests? Your squad is waiting.</p>
+<div class="mt-6 flex gap-4">
+<button class="comic-button bg-surface text-on-surface px-6 py-3 font-label-bold uppercase">View Schedule</button>
+<button class="comic-button bg-tertiary-container text-on-tertiary-container px-6 py-3 font-label-bold uppercase">Join Squad Room</button>
+</div>
+</div>
+</div>
+<!-- Main Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Left Column (8 cols) -->
+<div class="lg:col-span-8 space-y-gutter">
+<!-- Today's Focus -->
+<div class="comic-panel p-6">
+<div class="flex items-center gap-3 mb-6 pb-4 border-b-4 border-black">
+<span class="material-symbols-outlined text-primary bg-primary-container p-2 border-2 border-black" style="font-variation-settings: 'FILL' 1;">target</span>
+<h3 class="font-headline-md text-headline-md uppercase">Today's Focus</h3>
+</div>
+<div class="space-y-4">
+<!-- Item 1 -->
+<div class="border-4 border-black p-4 flex justify-between items-center bg-surface-container-low hover:bg-surface transition-colors cursor-pointer group">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-primary-container border-2 border-black flex items-center justify-center font-headline-md">1</div>
+<div>
+<h4 class="font-label-bold text-lg uppercase group-hover:text-primary transition-colors">Advanced Algorithms Lab</h4>
+<p class="font-body-md text-secondary">Room 402 • 10:00 AM</p>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-3 py-1 bg-surface-variant border-2 border-black font-label-sm uppercase">Mandatory</span>
+<button class="comic-button bg-surface p-2"><span class="material-symbols-outlined">arrow_forward</span></button>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="border-4 border-black p-4 flex justify-between items-center bg-surface-container-low hover:bg-surface transition-colors cursor-pointer group">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-tertiary-container border-2 border-black flex items-center justify-center font-headline-md">2</div>
+<div>
+<h4 class="font-label-bold text-lg uppercase group-hover:text-tertiary transition-colors">Design Crit: 'The Gutters'</h4>
+<p class="font-body-md text-secondary">Studio B • 1:30 PM</p>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-3 py-1 bg-surface-variant border-2 border-black font-label-sm uppercase">Project</span>
+<button class="comic-button bg-surface p-2"><span class="material-symbols-outlined">arrow_forward</span></button>
+</div>
+</div>
+</div>
+</div>
+<!-- Campus Pulse -->
+<div class="comic-panel p-6 rotate-1">
+<div class="flex items-center gap-3 mb-6 pb-4 border-b-4 border-black">
+<span class="material-symbols-outlined text-error bg-error-container p-2 border-2 border-black" style="font-variation-settings: 'FILL' 1;">campaign</span>
+<h3 class="font-headline-md text-headline-md uppercase">Campus Pulse</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<!-- Card 1 -->
+<div class="border-4 border-black overflow-hidden group cursor-pointer">
+<div class="h-32 bg-secondary-container border-b-4 border-black relative">
+<img alt="A lively campus quad filled with students setting up tents and colorful banners for an outdoor club fair. The scene is bright and energetic, reflecting a pop-art comic aesthetic with high contrast lighting." class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300" data-alt="A lively campus quad filled with students setting up tents and colorful banners for an outdoor club fair. The scene is bright and energetic, reflecting a pop-art comic aesthetic with high contrast lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCf-LHKklNMai8AV0B7C6RmXqLXdxVc6PDsprhyFuQN8Nyo5Jg24e7OQeLQNomlr7TpoiwnxsszyvODf3bjT_art-RLh5KlOfqkjog5G9tDXnMVgBfSYb_tbklVhCt9t-N6v6HWyEcxTVrFb3Tnq_ESNlOJDpGpnh27POL5tTHUCHhxBZpzdCa6AnH0oxj2dXA-6-bY0Y_xb9QqPmXJhyHZkq3jR1LLq0feKcn0lmodCvqT4wZ19jypUNI_IgFcdxAnPw1RLdVpmQs"/>
+<div class="absolute top-2 right-2 bg-primary text-on-primary px-2 py-1 border-2 border-black font-label-bold uppercase text-xs z-10 transform rotate-3">Happening Now</div>
+</div>
+<div class="p-4 bg-surface group-hover:bg-primary-container transition-colors">
+<h4 class="font-label-bold uppercase text-lg mb-1">Spring Club Fair</h4>
+<p class="font-body-md text-sm text-on-surface-variant">Main Quad • Free Swag!</p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="border-4 border-black overflow-hidden group cursor-pointer">
+<div class="h-32 bg-secondary-container border-b-4 border-black relative">
+<img alt="A dimly lit, atmospheric underground gaming tournament room with glowing neon screens and intense players. The visual style mimics a stylized comic book panel with heavy shadows and vibrant cyan accents." class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300" data-alt="A dimly lit, atmospheric underground gaming tournament room with glowing neon screens and intense players. The visual style mimics a stylized comic book panel with heavy shadows and vibrant cyan accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDmzkRwCGln6y7VH2JDtX3DtmmT-kaS3cBiR_LFRivLbOlXV0JxQxP_vYIGQ2dxwShWMAwSa4l1sZncP5Ys-OlCnCNvXdvxA6RaQDHoJpj50mguo7w8MzK4E6qF0ql78luQIgawNV7XRo9XJOaxniPqqqoNZBhQiG6h3p1_VPku1czU5cpy6b4NqVgDoXNG_2tNozP8rbfN7Rm-D0iMXBZrb2HcHupHidwQnHWqhjdEd4UENMLi2Jx9FOMn84zHgPLhInjca7YVFIE"/>
+</div>
+<div class="p-4 bg-surface group-hover:bg-tertiary-container transition-colors">
+<h4 class="font-label-bold uppercase text-lg mb-1">Esports Tryouts</h4>
+<p class="font-body-md text-sm text-on-surface-variant">Student Center • Tonight</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column (4 cols) -->
+<div class="lg:col-span-4 space-y-gutter">
+<!-- Upcoming Deadlines -->
+<div class="comic-panel p-6 bg-surface-container">
+<div class="flex items-center gap-3 mb-6 pb-4 border-b-4 border-black">
+<span class="material-symbols-outlined text-on-surface bg-surface-variant p-2 border-2 border-black" style="font-variation-settings: 'FILL' 1;">timer</span>
+<h3 class="font-headline-md text-headline-md uppercase">Deadlines</h3>
+</div>
+<div class="space-y-0 relative">
+<!-- Timeline Line -->
+<div class="absolute left-4 top-2 bottom-2 w-1 bg-black z-0"></div>
+<!-- Item 1 -->
+<div class="relative z-10 pl-10 py-3">
+<div class="absolute left-2 top-4 w-5 h-5 bg-error border-2 border-black rounded-none z-10"></div>
+<div class="bg-surface border-4 border-black p-3 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+<span class="text-xs font-label-bold text-error uppercase mb-1 block">Tomorrow, 11:59 PM</span>
+<h4 class="font-label-bold uppercase">UI/UX Final Prototype</h4>
+<div class="mt-2 h-4 bg-surface-variant border-2 border-black overflow-hidden relative">
+<div class="absolute inset-0 w-[90%] bg-error" style="background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(0,0,0,0.2) 10px, rgba(0,0,0,0.2) 20px);"></div>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="relative z-10 pl-10 py-3">
+<div class="absolute left-2 top-4 w-5 h-5 bg-primary border-2 border-black rounded-none z-10"></div>
+<div class="bg-surface border-4 border-black p-3 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+<span class="text-xs font-label-bold text-on-surface-variant uppercase mb-1 block">Friday, 5:00 PM</span>
+<h4 class="font-label-bold uppercase">History Essay Draft</h4>
+<div class="mt-2 h-4 bg-surface-variant border-2 border-black overflow-hidden relative">
+<div class="absolute inset-0 w-[40%] bg-primary" style="background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(0,0,0,0.2) 10px, rgba(0,0,0,0.2) 20px);"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- NavigationDrawer (AI Sidekick) -->
+<aside class="fixed md:relative right-0 top-[80px] md:top-0 h-[calc(100vh-80px)] md:h-full w-80 bg-surface-container dark:bg-surface-container-high border-l-4 border-black shadow-[-8px_0px_0px_0px_rgba(0,0,0,1)] flex flex-col z-40 transform translate-x-full md:translate-x-0 transition-transform duration-300" id="ai-drawer">
+<div class="p-6 border-b-4 border-black bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjEiIGZpbGw9IiNkYWRhZDgiLz48L3N2Zz4=')]">
+<div class="flex items-center gap-4">
+<div class="w-16 h-16 bg-tertiary-container border-4 border-black overflow-hidden rounded-full p-1 bg-white">
+<img alt="A stylized, geometric robot character head with a glowing cyan eye, rendered in a flat, bold comic book aesthetic perfect for a digital sidekick avatar." class="w-full h-full object-cover" data-alt="A stylized, geometric robot character head with a glowing cyan eye, rendered in a flat, bold comic book aesthetic perfect for a digital sidekick avatar." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrJam5M8RvkqEM2ptlcLKhOUsV5yUzNlID9aeAuW-FgvOc-yK9t4iIoAiECuKeMAi7A1mooWE-QYYaXSPJpYLK9vb3d7bajKUbhyYSWi76dEbDAcc2pwrbyOVa1lB5mNq1pWtLTygG7Alg9Kilodc_GiW46p9zzWQOo7FHs5zc1B6XQeSJ1UoDQJk1Mv5gM_BrZPyLl14FGJvSRWVLv90RFo3VEZxlbYxDvovZ7-uQYkUkqb1DSpNMCrCs0cbyopVtO_YZkcsuNE4"/>
+</div>
+<div>
+<h2 class="font-headline-md text-headline-md text-tertiary uppercase leading-tight">Sidekick V.1</h2>
+<p class="font-label-sm text-on-surface-variant uppercase">Ready for action!</p>
+</div>
+</div>
+</div>
+<div class="flex-1 p-6 overflow-y-auto space-y-6">
+<!-- AI Insight -->
+<div class="relative">
+<div class="speech-bubble bg-white border-4 border-black p-4 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] relative z-20">
+<h4 class="font-label-bold uppercase text-tertiary mb-2 flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">smart_toy</span> Recent Insight
+                        </h4>
+<p class="font-body-md text-sm">Hey Julian! I noticed you usually grab coffee before your 10 AM lab. The cafe line is 15 mins long right now. Might want to hustle!</p>
+</div>
+</div>
+<!-- Quick Actions -->
+<div class="mt-8">
+<h4 class="font-label-bold uppercase mb-4 border-b-4 border-black pb-2">Quick Commands</h4>
+<div class="space-y-3">
+<button class="comic-button w-full bg-surface py-2 px-4 flex items-center gap-3 hover:bg-tertiary-container transition-colors group">
+<span class="material-symbols-outlined text-tertiary">map</span>
+<span class="font-label-bold uppercase group-hover:translate-x-1 transition-transform">Find Empty Room</span>
+</button>
+<button class="comic-button w-full bg-surface py-2 px-4 flex items-center gap-3 hover:bg-tertiary-container transition-colors group">
+<span class="material-symbols-outlined text-tertiary">restaurant</span>
+<span class="font-label-bold uppercase group-hover:translate-x-1 transition-transform">Check Dining Menu</span>
+</button>
+</div>
+</div>
+</div>
+<div class="p-4 border-t-4 border-black bg-surface relative">
+<input class="w-full bg-white border-4 border-black p-3 font-body-md focus:outline-none focus:border-tertiary focus:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all" placeholder="Ask Sidekick..." type="text"/>
+<button class="absolute right-6 top-1/2 -translate-y-1/2 text-tertiary hover:scale-110 transition-transform">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">send</span>
+</button>
+</div>
+</aside>
+</div>
+<!-- Mobile Overlay for AI Drawer -->
+<div class="fixed inset-0 bg-black/50 z-30 hidden" id="mobile-overlay"></div>
+</body></html>

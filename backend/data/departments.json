@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Computer Science",
+    "student_count": 8
+  },
+  {
+    "name": "Electronics",
+    "student_count": 6
+  },
+  {
+    "name": "Mechanical",
+    "student_count": 7
+  },
+  {
+    "name": "Civil",
+    "student_count": 5
+  },
+  {
+    "name": "Electrical",
+    "student_count": 6
+  },
+  {
+    "name": "Chemical",
+    "student_count": 4
+  },
+  {
+    "name": "Biotech",
+    "student_count": 6
+  },
+  {
+    "name": "MBA",
+    "student_count": 8
+  }
+]

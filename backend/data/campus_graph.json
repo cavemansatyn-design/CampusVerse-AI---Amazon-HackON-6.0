@@ -1,0 +1,861 @@
+{
+  "friendships": [
+    {
+      "student_id": "097e1767-0527-40b6-9f67-44c059b15737",
+      "friend_id": "c20dc183-cdf3-4a65-a87e-9d356c097238",
+      "strength": 0.4
+    },
+    {
+      "student_id": "c20dc183-cdf3-4a65-a87e-9d356c097238",
+      "friend_id": "dbb60028-6bf2-409c-821e-c49c3cd5ae92",
+      "strength": 0.53
+    },
+    {
+      "student_id": "33e7faba-5ee4-43c1-8e03-b23fced3ade2",
+      "friend_id": "c20dc183-cdf3-4a65-a87e-9d356c097238",
+      "strength": 0.57
+    },
+    {
+      "student_id": "a34b4320-f05f-4d32-ba3a-3dc9779959c8",
+      "friend_id": "c20dc183-cdf3-4a65-a87e-9d356c097238",
+      "strength": 0.6
+    },
+    {
+      "student_id": "75235f8e-dcbe-47f0-9071-aa464b7574f8",
+      "friend_id": "c20dc183-cdf3-4a65-a87e-9d356c097238",
+      "strength": 0.63
+    },
+    {
+      "student_id": "7cecc571-2248-4037-9985-80a7a47c22b7",
+      "friend_id": "e01c1cb0-5fa6-413c-b83c-4414b8cbb520",
+      "strength": 0.83
+    },
+    {
+      "student_id": "bb7fad0d-f3aa-4e63-b6ee-98eb0036c948",
+      "friend_id": "e01c1cb0-5fa6-413c-b83c-4414b8cbb520",
+      "strength": 0.49
+    },
+    {
+      "student_id": "5eb09744-585e-4d0c-84af-0feb89390da0",
+      "friend_id": "e01c1cb0-5fa6-413c-b83c-4414b8cbb520",
+      "strength": 0.39
+    },
+    {
+      "student_id": "df3bf4a6-dc76-4b82-bab4-025bb547a258",
+      "friend_id": "e01c1cb0-5fa6-413c-b83c-4414b8cbb520",
+      "strength": 0.62
+    },
+    {
+      "student_id": "3fc00c60-d15e-483c-ae70-10753d4779b5",
+      "friend_id": "8ca461a6-54c0-454d-86d1-dc449672995c",
+      "strength": 0.87
+    },
+    {
+      "student_id": "0a6a337f-309c-459e-9337-a48d4af3f8a0",
+      "friend_id": "3fc00c60-d15e-483c-ae70-10753d4779b5",
+      "strength": 0.92
+    },
+    {
+      "student_id": "3fc00c60-d15e-483c-ae70-10753d4779b5",
+      "friend_id": "71ab5199-7e4f-4326-9a7a-64145cd1ba20",
+      "strength": 0.85
+    },
+    {
+      "student_id": "3fc00c60-d15e-483c-ae70-10753d4779b5",
+      "friend_id": "7cecc571-2248-4037-9985-80a7a47c22b7",
+      "strength": 0.89
+    },
+    {
+      "student_id": "3fc00c60-d15e-483c-ae70-10753d4779b5",
+      "friend_id": "4eda6505-141f-45ed-b969-e0eafed085f2",
+      "strength": 0.85
+    },
+    {
+      "student_id": "0e9c64c2-f53d-4558-ae6d-f849f1a6296e",
+      "friend_id": "6d6c7e00-370c-4a0c-b3d2-7ffec9e31c7b",
+      "strength": 0.71
+    },
+    {
+      "student_id": "3fc00c60-d15e-483c-ae70-10753d4779b5",
+      "friend_id": "6d6c7e00-370c-4a0c-b3d2-7ffec9e31c7b",
+      "strength": 0.45
+    },
+    {
+      "student_id": "394c8f91-8f39-4a41-9e3b-2100061e6d6f",
+      "friend_id": "6d6c7e00-370c-4a0c-b3d2-7ffec9e31c7b",
+      "strength": 0.7
+    },
+    {
+      "student_id": "6d6c7e00-370c-4a0c-b3d2-7ffec9e31c7b",
+      "friend_id": "7cecc571-2248-4037-9985-80a7a47c22b7",
+      "strength": 0.31
+    },
+    {
+      "student_id": "427cb1dc-b6d3-447e-82c3-812209e075b7",
+      "friend_id": "6d6c7e00-370c-4a0c-b3d2-7ffec9e31c7b",
+      "strength": 0.7
+    },
+    {
+      "student_id": "427cb1dc-b6d3-447e-82c3-812209e075b7",
+      "friend_id": "dfcbf05d-11f0-4d7e-8683-edee49a47db7",
+      "strength": 0.4
+    },
+    {
+      "student_id": "b4b93004-7aa0-4662-bffa-111d0331d1af",
+      "friend_id": "dfcbf05d-11f0-4d7e-8683-edee49a47db7",
+      "strength": 0.44
+    },
+    {
+      "student_id": "5f583c4e-c2a9-40b6-b2ff-fac40cc3e485",
+      "friend_id": "dfcbf05d-11f0-4d7e-8683-edee49a47db7",
+      "strength": 0.59
+    },
+    {
+      "student_id": "4eda6505-141f-45ed-b969-e0eafed085f2",
+      "friend_id": "d5a36ff4-2f25-433b-92e3-845fd92d6751",
+      "strength": 0.34
+    },
+    {
+      "student_id": "5eb09744-585e-4d0c-84af-0feb89390da0",
+      "friend_id": "d5a36ff4-2f25-433b-92e3-845fd92d6751",
+      "strength": 0.77
+    },
+    {
+      "student_id": "0a6a337f-309c-459e-9337-a48d4af3f8a0",
+      "friend_id": "d5a36ff4-2f25-433b-92e3-845fd92d6751",
+      "strength": 0.83
+    },
+    {
+      "student_id": "d5a36ff4-2f25-433b-92e3-845fd92d6751",
+      "friend_id": "dbb60028-6bf2-409c-821e-c49c3cd5ae92",
+      "strength": 0.38
+    },
+    {
+      "student_id": "3936eacd-1a25-4b7a-83a4-25c0414749ba",
+      "friend_id": "e287d40b-ea48-40ab-833c-fb5a31d4cb39",
+      "strength": 0.37
+    },
+    {
+      "student_id": "71ab5199-7e4f-4326-9a7a-64145cd1ba20",
+      "friend_id": "e287d40b-ea48-40ab-833c-fb5a31d4cb39",
+      "strength": 0.43
+    },
+    {
+      "student_id": "e287d40b-ea48-40ab-833c-fb5a31d4cb39",
+      "friend_id": "e671df7b-2587-4038-b7a5-eec245c2ade8",
+      "strength": 0.79
+    },
+    {
+      "student_id": "097e1767-0527-40b6-9f67-44c059b15737",
+      "friend_id": "e287d40b-ea48-40ab-833c-fb5a31d4cb39",
+      "strength": 0.91
+    },
+    {
+      "student_id": "5a583a2e-d5da-4b27-8143-5449df758808",
+      "friend_id": "e287d40b-ea48-40ab-833c-fb5a31d4cb39",
+      "strength": 0.62
+    },
+    {
+      "student_id": "33e7faba-5ee4-43c1-8e03-b23fced3ade2",
+      "friend_id": "b8c1423e-5092-4c79-bf0a-26b198184ccb",
+      "strength": 0.47
+    },
+    {
+      "student_id": "19fbfda2-104e-4c88-9a8d-4ada386944d1",
+      "friend_id": "b8c1423e-5092-4c79-bf0a-26b198184ccb",
+      "strength": 0.77
+    },
+    {
+      "student_id": "b4b93004-7aa0-4662-bffa-111d0331d1af",
+      "friend_id": "b8c1423e-5092-4c79-bf0a-26b198184ccb",
+      "strength": 0.92
+    },
+    {
+      "student_id": "95aab9c3-1e7a-43d9-9aea-17a47a3d9184",
+      "friend_id": "e36f9314-b048-464a-9e50-cd092d41ce1f",
+      "strength": 0.49
+    },
+    {
+      "student_id": "8ca461a6-54c0-454d-86d1-dc449672995c",
+      "friend_id": "e36f9314-b048-464a-9e50-cd092d41ce1f",
+      "strength": 0.76
+    },
+    {
+      "student_id": "e36f9314-b048-464a-9e50-cd092d41ce1f",
+      "friend_id": "e671df7b-2587-4038-b7a5-eec245c2ade8",
+      "strength": 0.33
+    },
+    {
+      "student_id": "dbb60028-6bf2-409c-821e-c49c3cd5ae92",
+      "friend_id": "e36f9314-b048-464a-9e50-cd092d41ce1f",
+      "strength": 0.58
+    },
+    {
+      "student_id": "bb7fad0d-f3aa-4e63-b6ee-98eb0036c948",
+      "friend_id": "e36f9314-b048-464a-9e50-cd092d41ce1f",
+      "strength": 0.83
+    },
+    {
+      "student_id": "4eda6505-141f-45ed-b969-e0eafed085f2",
+      "friend_id": "ac5c4783-db3f-487a-9b97-c71fe1376f7d",
+      "strength": 0.6
+    },
+    {
+      "student_id": "ac5c4783-db3f-487a-9b97-c71fe1376f7d",
+      "friend_id": "d04d1045-52bf-4d6f-97a7-6f4579a8dbf4",
+      "strength": 0.87
+    },
+    {
+      "student_id": "07089b74-5128-4648-a796-7f6914f22c5d",
+      "friend_id": "1a47868e-256e-4c32-aaab-5755e067c45f",
+      "strength": 0.7
+    },
+    {
+      "student_id": "07089b74-5128-4648-a796-7f6914f22c5d",
+      "friend_id": "0e9c64c2-f53d-4558-ae6d-f849f1a6296e",
+      "strength": 0.66
+    },
+    {
+      "student_id": "07089b74-5128-4648-a796-7f6914f22c5d",
+      "friend_id": "df3bf4a6-dc76-4b82-bab4-025bb547a258",
+      "strength": 0.69
+    },
+    {
+      "student_id": "07089b74-5128-4648-a796-7f6914f22c5d",
+      "friend_id": "5f583c4e-c2a9-40b6-b2ff-fac40cc3e485",
+      "strength": 0.72
+    },
+    {
+      "student_id": "097e1767-0527-40b6-9f67-44c059b15737",
+      "friend_id": "3fc00c60-d15e-483c-ae70-10753d4779b5",
+      "strength": 0.89
+    },
+    {
+      "student_id": "097e1767-0527-40b6-9f67-44c059b15737",
+      "friend_id": "394c8f91-8f39-4a41-9e3b-2100061e6d6f",
+      "strength": 0.69
+    },
+    {
+      "student_id": "097e1767-0527-40b6-9f67-44c059b15737",
+      "friend_id": "5f583c4e-c2a9-40b6-b2ff-fac40cc3e485",
+      "strength": 0.47
+    },
+    {
+      "student_id": "8ca461a6-54c0-454d-86d1-dc449672995c",
+      "friend_id": "bf1ee7b4-ea49-4c5b-ab67-0ddfa3479b68",
+      "strength": 0.42
+    },
+    {
+      "student_id": "bb37bcca-c95e-4346-9335-ba592eb114ff",
+      "friend_id": "bf1ee7b4-ea49-4c5b-ab67-0ddfa3479b68",
+      "strength": 0.46
+    },
+    {
+      "student_id": "bb7fad0d-f3aa-4e63-b6ee-98eb0036c948",
+      "friend_id": "bf1ee7b4-ea49-4c5b-ab67-0ddfa3479b68",
+      "strength": 0.39
+    },
+    {
+      "student_id": "b8c1423e-5092-4c79-bf0a-26b198184ccb",
+      "friend_id": "d04d1045-52bf-4d6f-97a7-6f4579a8dbf4",
+      "strength": 0.47
+    },
+    {
+      "student_id": "00b8f111-c6e8-4e11-af91-a50fe80450cd",
+      "friend_id": "d04d1045-52bf-4d6f-97a7-6f4579a8dbf4",
+      "strength": 0.95
+    },
+    {
+      "student_id": "19fbfda2-104e-4c88-9a8d-4ada386944d1",
+      "friend_id": "630a3b76-497a-4a0a-a3d5-7cbb9174af78",
+      "strength": 0.46
+    },
+    {
+      "student_id": "630a3b76-497a-4a0a-a3d5-7cbb9174af78",
+      "friend_id": "a289dbb1-e767-454f-b13e-f670ade895a9",
+      "strength": 0.94
+    },
+    {
+      "student_id": "71ab5199-7e4f-4326-9a7a-64145cd1ba20",
+      "friend_id": "7cecc571-2248-4037-9985-80a7a47c22b7",
+      "strength": 0.93
+    },
+    {
+      "student_id": "6c6f6e2c-c2e3-41b5-a7f1-e225d1f58672",
+      "friend_id": "7cecc571-2248-4037-9985-80a7a47c22b7",
+      "strength": 0.55
+    },
+    {
+      "student_id": "0a6a337f-309c-459e-9337-a48d4af3f8a0",
+      "friend_id": "7cecc571-2248-4037-9985-80a7a47c22b7",
+      "strength": 0.82
+    },
+    {
+      "student_id": "19fbfda2-104e-4c88-9a8d-4ada386944d1",
+      "friend_id": "2ec4ef33-a55e-4198-ba15-8ceb5ca66d02",
+      "strength": 0.9
+    },
+    {
+      "student_id": "19fbfda2-104e-4c88-9a8d-4ada386944d1",
+      "friend_id": "b4b93004-7aa0-4662-bffa-111d0331d1af",
+      "strength": 0.87
+    },
+    {
+      "student_id": "19fbfda2-104e-4c88-9a8d-4ada386944d1",
+      "friend_id": "5a583a2e-d5da-4b27-8143-5449df758808",
+      "strength": 0.97
+    },
+    {
+      "student_id": "19fbfda2-104e-4c88-9a8d-4ada386944d1",
+      "friend_id": "e01c1cb0-5fa6-413c-b83c-4414b8cbb520",
+      "strength": 0.97
+    },
+    {
+      "student_id": "19fbfda2-104e-4c88-9a8d-4ada386944d1",
+      "friend_id": "e287d40b-ea48-40ab-833c-fb5a31d4cb39",
+      "strength": 0.68
+    },
+    {
+      "student_id": "3936eacd-1a25-4b7a-83a4-25c0414749ba",
+      "friend_id": "df3bf4a6-dc76-4b82-bab4-025bb547a258",
+      "strength": 0.99
+    },
+    {
+      "student_id": "5a583a2e-d5da-4b27-8143-5449df758808",
+      "friend_id": "df3bf4a6-dc76-4b82-bab4-025bb547a258",
+      "strength": 0.52
+    },
+    {
+      "student_id": "d5a36ff4-2f25-433b-92e3-845fd92d6751",
+      "friend_id": "df3bf4a6-dc76-4b82-bab4-025bb547a258",
+      "strength": 0.75
+    },
+    {
+      "student_id": "6d6c7e00-370c-4a0c-b3d2-7ffec9e31c7b",
+      "friend_id": "df3bf4a6-dc76-4b82-bab4-025bb547a258",
+      "strength": 0.73
+    },
+    {
+      "student_id": "5a583a2e-d5da-4b27-8143-5449df758808",
+      "friend_id": "5f583c4e-c2a9-40b6-b2ff-fac40cc3e485",
+      "strength": 0.77
+    },
+    {
+      "student_id": "5f583c4e-c2a9-40b6-b2ff-fac40cc3e485",
+      "friend_id": "ac5c4783-db3f-487a-9b97-c71fe1376f7d",
+      "strength": 0.63
+    },
+    {
+      "student_id": "5f583c4e-c2a9-40b6-b2ff-fac40cc3e485",
+      "friend_id": "e671df7b-2587-4038-b7a5-eec245c2ade8",
+      "strength": 1.0
+    },
+    {
+      "student_id": "6c6f6e2c-c2e3-41b5-a7f1-e225d1f58672",
+      "friend_id": "e671df7b-2587-4038-b7a5-eec245c2ade8",
+      "strength": 0.48
+    },
+    {
+      "student_id": "3936eacd-1a25-4b7a-83a4-25c0414749ba",
+      "friend_id": "e671df7b-2587-4038-b7a5-eec245c2ade8",
+      "strength": 0.97
+    },
+    {
+      "student_id": "31bfa65d-7c86-493e-98b6-3e129cd01046",
+      "friend_id": "e671df7b-2587-4038-b7a5-eec245c2ade8",
+      "strength": 0.58
+    },
+    {
+      "student_id": "1a47868e-256e-4c32-aaab-5755e067c45f",
+      "friend_id": "e671df7b-2587-4038-b7a5-eec245c2ade8",
+      "strength": 0.38
+    },
+    {
+      "student_id": "00b8f111-c6e8-4e11-af91-a50fe80450cd",
+      "friend_id": "e671df7b-2587-4038-b7a5-eec245c2ade8",
+      "strength": 0.33
+    },
+    {
+      "student_id": "31bfa65d-7c86-493e-98b6-3e129cd01046",
+      "friend_id": "9b92ddc1-95ab-46fe-98d3-3450f327d280",
+      "strength": 0.81
+    },
+    {
+      "student_id": "9b92ddc1-95ab-46fe-98d3-3450f327d280",
+      "friend_id": "d5a36ff4-2f25-433b-92e3-845fd92d6751",
+      "strength": 0.91
+    },
+    {
+      "student_id": "00b8f111-c6e8-4e11-af91-a50fe80450cd",
+      "friend_id": "9b92ddc1-95ab-46fe-98d3-3450f327d280",
+      "strength": 0.74
+    },
+    {
+      "student_id": "9b92ddc1-95ab-46fe-98d3-3450f327d280",
+      "friend_id": "b8c1423e-5092-4c79-bf0a-26b198184ccb",
+      "strength": 0.5
+    },
+    {
+      "student_id": "9b92ddc1-95ab-46fe-98d3-3450f327d280",
+      "friend_id": "dfcbf05d-11f0-4d7e-8683-edee49a47db7",
+      "strength": 0.74
+    },
+    {
+      "student_id": "1a47868e-256e-4c32-aaab-5755e067c45f",
+      "friend_id": "73d0788d-19a0-4465-b7eb-160b2df11291",
+      "strength": 0.58
+    },
+    {
+      "student_id": "73d0788d-19a0-4465-b7eb-160b2df11291",
+      "friend_id": "95aab9c3-1e7a-43d9-9aea-17a47a3d9184",
+      "strength": 0.92
+    },
+    {
+      "student_id": "71ab5199-7e4f-4326-9a7a-64145cd1ba20",
+      "friend_id": "73d0788d-19a0-4465-b7eb-160b2df11291",
+      "strength": 0.48
+    },
+    {
+      "student_id": "6c6f6e2c-c2e3-41b5-a7f1-e225d1f58672",
+      "friend_id": "bb37bcca-c95e-4346-9335-ba592eb114ff",
+      "strength": 0.69
+    },
+    {
+      "student_id": "6c6f6e2c-c2e3-41b5-a7f1-e225d1f58672",
+      "friend_id": "bf1ee7b4-ea49-4c5b-ab67-0ddfa3479b68",
+      "strength": 0.73
+    },
+    {
+      "student_id": "33e7faba-5ee4-43c1-8e03-b23fced3ade2",
+      "friend_id": "6c6f6e2c-c2e3-41b5-a7f1-e225d1f58672",
+      "strength": 0.69
+    },
+    {
+      "student_id": "6c6f6e2c-c2e3-41b5-a7f1-e225d1f58672",
+      "friend_id": "b8c1423e-5092-4c79-bf0a-26b198184ccb",
+      "strength": 0.32
+    },
+    {
+      "student_id": "097e1767-0527-40b6-9f67-44c059b15737",
+      "friend_id": "6c6f6e2c-c2e3-41b5-a7f1-e225d1f58672",
+      "strength": 0.71
+    },
+    {
+      "student_id": "2617dbf9-782a-4595-b489-0d1a047e6797",
+      "friend_id": "4eda6505-141f-45ed-b969-e0eafed085f2",
+      "strength": 0.96
+    },
+    {
+      "student_id": "2617dbf9-782a-4595-b489-0d1a047e6797",
+      "friend_id": "5f583c4e-c2a9-40b6-b2ff-fac40cc3e485",
+      "strength": 0.97
+    },
+    {
+      "student_id": "2617dbf9-782a-4595-b489-0d1a047e6797",
+      "friend_id": "95aab9c3-1e7a-43d9-9aea-17a47a3d9184",
+      "strength": 0.56
+    },
+    {
+      "student_id": "73d0788d-19a0-4465-b7eb-160b2df11291",
+      "friend_id": "dbb60028-6bf2-409c-821e-c49c3cd5ae92",
+      "strength": 0.48
+    },
+    {
+      "student_id": "5f583c4e-c2a9-40b6-b2ff-fac40cc3e485",
+      "friend_id": "dbb60028-6bf2-409c-821e-c49c3cd5ae92",
+      "strength": 0.36
+    },
+    {
+      "student_id": "3936eacd-1a25-4b7a-83a4-25c0414749ba",
+      "friend_id": "dbb60028-6bf2-409c-821e-c49c3cd5ae92",
+      "strength": 0.87
+    },
+    {
+      "student_id": "3fc00c60-d15e-483c-ae70-10753d4779b5",
+      "friend_id": "5a583a2e-d5da-4b27-8143-5449df758808",
+      "strength": 0.45
+    },
+    {
+      "student_id": "5a583a2e-d5da-4b27-8143-5449df758808",
+      "friend_id": "6c6f6e2c-c2e3-41b5-a7f1-e225d1f58672",
+      "strength": 0.96
+    },
+    {
+      "student_id": "5a583a2e-d5da-4b27-8143-5449df758808",
+      "friend_id": "dbb60028-6bf2-409c-821e-c49c3cd5ae92",
+      "strength": 0.74
+    },
+    {
+      "student_id": "0a6a337f-309c-459e-9337-a48d4af3f8a0",
+      "friend_id": "6c6f6e2c-c2e3-41b5-a7f1-e225d1f58672",
+      "strength": 0.94
+    },
+    {
+      "student_id": "0a6a337f-309c-459e-9337-a48d4af3f8a0",
+      "friend_id": "e36f9314-b048-464a-9e50-cd092d41ce1f",
+      "strength": 0.41
+    },
+    {
+      "student_id": "0a6a337f-309c-459e-9337-a48d4af3f8a0",
+      "friend_id": "0e9c64c2-f53d-4558-ae6d-f849f1a6296e",
+      "strength": 0.51
+    },
+    {
+      "student_id": "0a6a337f-309c-459e-9337-a48d4af3f8a0",
+      "friend_id": "95aab9c3-1e7a-43d9-9aea-17a47a3d9184",
+      "strength": 0.9
+    },
+    {
+      "student_id": "0e9c64c2-f53d-4558-ae6d-f849f1a6296e",
+      "friend_id": "e36f9314-b048-464a-9e50-cd092d41ce1f",
+      "strength": 0.49
+    },
+    {
+      "student_id": "0e9c64c2-f53d-4558-ae6d-f849f1a6296e",
+      "friend_id": "394c8f91-8f39-4a41-9e3b-2100061e6d6f",
+      "strength": 0.63
+    },
+    {
+      "student_id": "0e9c64c2-f53d-4558-ae6d-f849f1a6296e",
+      "friend_id": "9b92ddc1-95ab-46fe-98d3-3450f327d280",
+      "strength": 0.92
+    },
+    {
+      "student_id": "427cb1dc-b6d3-447e-82c3-812209e075b7",
+      "friend_id": "4eda6505-141f-45ed-b969-e0eafed085f2",
+      "strength": 0.5
+    },
+    {
+      "student_id": "2ec4ef33-a55e-4198-ba15-8ceb5ca66d02",
+      "friend_id": "427cb1dc-b6d3-447e-82c3-812209e075b7",
+      "strength": 0.44
+    },
+    {
+      "student_id": "427cb1dc-b6d3-447e-82c3-812209e075b7",
+      "friend_id": "b8c1423e-5092-4c79-bf0a-26b198184ccb",
+      "strength": 0.31
+    },
+    {
+      "student_id": "097e1767-0527-40b6-9f67-44c059b15737",
+      "friend_id": "427cb1dc-b6d3-447e-82c3-812209e075b7",
+      "strength": 0.7
+    },
+    {
+      "student_id": "2ec4ef33-a55e-4198-ba15-8ceb5ca66d02",
+      "friend_id": "ac5c4783-db3f-487a-9b97-c71fe1376f7d",
+      "strength": 0.55
+    },
+    {
+      "student_id": "2ec4ef33-a55e-4198-ba15-8ceb5ca66d02",
+      "friend_id": "8ca461a6-54c0-454d-86d1-dc449672995c",
+      "strength": 0.44
+    },
+    {
+      "student_id": "8ca461a6-54c0-454d-86d1-dc449672995c",
+      "friend_id": "d04d1045-52bf-4d6f-97a7-6f4579a8dbf4",
+      "strength": 0.83
+    },
+    {
+      "student_id": "31bfa65d-7c86-493e-98b6-3e129cd01046",
+      "friend_id": "8ca461a6-54c0-454d-86d1-dc449672995c",
+      "strength": 0.65
+    },
+    {
+      "student_id": "6c6f6e2c-c2e3-41b5-a7f1-e225d1f58672",
+      "friend_id": "8ca461a6-54c0-454d-86d1-dc449672995c",
+      "strength": 0.52
+    },
+    {
+      "student_id": "3936eacd-1a25-4b7a-83a4-25c0414749ba",
+      "friend_id": "b4b93004-7aa0-4662-bffa-111d0331d1af",
+      "strength": 0.52
+    },
+    {
+      "student_id": "0e9c64c2-f53d-4558-ae6d-f849f1a6296e",
+      "friend_id": "b4b93004-7aa0-4662-bffa-111d0331d1af",
+      "strength": 0.44
+    },
+    {
+      "student_id": "33e7faba-5ee4-43c1-8e03-b23fced3ade2",
+      "friend_id": "b4b93004-7aa0-4662-bffa-111d0331d1af",
+      "strength": 0.49
+    },
+    {
+      "student_id": "b4b93004-7aa0-4662-bffa-111d0331d1af",
+      "friend_id": "c3e80db5-e4e1-4b02-a4e3-701d9351de81",
+      "strength": 0.9
+    },
+    {
+      "student_id": "00b8f111-c6e8-4e11-af91-a50fe80450cd",
+      "friend_id": "5eb09744-585e-4d0c-84af-0feb89390da0",
+      "strength": 0.32
+    },
+    {
+      "student_id": "00b8f111-c6e8-4e11-af91-a50fe80450cd",
+      "friend_id": "e287d40b-ea48-40ab-833c-fb5a31d4cb39",
+      "strength": 0.56
+    },
+    {
+      "student_id": "a289dbb1-e767-454f-b13e-f670ade895a9",
+      "friend_id": "d04d1045-52bf-4d6f-97a7-6f4579a8dbf4",
+      "strength": 0.38
+    },
+    {
+      "student_id": "5eb09744-585e-4d0c-84af-0feb89390da0",
+      "friend_id": "a289dbb1-e767-454f-b13e-f670ade895a9",
+      "strength": 0.84
+    },
+    {
+      "student_id": "2617dbf9-782a-4595-b489-0d1a047e6797",
+      "friend_id": "a289dbb1-e767-454f-b13e-f670ade895a9",
+      "strength": 0.96
+    },
+    {
+      "student_id": "4eda6505-141f-45ed-b969-e0eafed085f2",
+      "friend_id": "a289dbb1-e767-454f-b13e-f670ade895a9",
+      "strength": 0.72
+    },
+    {
+      "student_id": "71ab5199-7e4f-4326-9a7a-64145cd1ba20",
+      "friend_id": "a289dbb1-e767-454f-b13e-f670ade895a9",
+      "strength": 0.64
+    },
+    {
+      "student_id": "394c8f91-8f39-4a41-9e3b-2100061e6d6f",
+      "friend_id": "95aab9c3-1e7a-43d9-9aea-17a47a3d9184",
+      "strength": 0.38
+    },
+    {
+      "student_id": "95aab9c3-1e7a-43d9-9aea-17a47a3d9184",
+      "friend_id": "ac5c4783-db3f-487a-9b97-c71fe1376f7d",
+      "strength": 0.46
+    },
+    {
+      "student_id": "71ab5199-7e4f-4326-9a7a-64145cd1ba20",
+      "friend_id": "95aab9c3-1e7a-43d9-9aea-17a47a3d9184",
+      "strength": 0.66
+    },
+    {
+      "student_id": "95aab9c3-1e7a-43d9-9aea-17a47a3d9184",
+      "friend_id": "c3e80db5-e4e1-4b02-a4e3-701d9351de81",
+      "strength": 0.35
+    },
+    {
+      "student_id": "95aab9c3-1e7a-43d9-9aea-17a47a3d9184",
+      "friend_id": "b8c1423e-5092-4c79-bf0a-26b198184ccb",
+      "strength": 0.89
+    },
+    {
+      "student_id": "1a47868e-256e-4c32-aaab-5755e067c45f",
+      "friend_id": "2e871eba-a1a4-45ab-812f-e8117b6e1971",
+      "strength": 0.61
+    },
+    {
+      "student_id": "2e871eba-a1a4-45ab-812f-e8117b6e1971",
+      "friend_id": "a34b4320-f05f-4d32-ba3a-3dc9779959c8",
+      "strength": 0.64
+    },
+    {
+      "student_id": "1a47868e-256e-4c32-aaab-5755e067c45f",
+      "friend_id": "2617dbf9-782a-4595-b489-0d1a047e6797",
+      "strength": 0.9
+    },
+    {
+      "student_id": "19fbfda2-104e-4c88-9a8d-4ada386944d1",
+      "friend_id": "1a47868e-256e-4c32-aaab-5755e067c45f",
+      "strength": 0.76
+    },
+    {
+      "student_id": "1a47868e-256e-4c32-aaab-5755e067c45f",
+      "friend_id": "630a3b76-497a-4a0a-a3d5-7cbb9174af78",
+      "strength": 0.31
+    },
+    {
+      "student_id": "1a47868e-256e-4c32-aaab-5755e067c45f",
+      "friend_id": "c26687d2-5deb-4fd6-89f8-575e1a170d06",
+      "strength": 0.32
+    },
+    {
+      "student_id": "2e871eba-a1a4-45ab-812f-e8117b6e1971",
+      "friend_id": "4eda6505-141f-45ed-b969-e0eafed085f2",
+      "strength": 0.37
+    },
+    {
+      "student_id": "4eda6505-141f-45ed-b969-e0eafed085f2",
+      "friend_id": "dbb60028-6bf2-409c-821e-c49c3cd5ae92",
+      "strength": 0.79
+    },
+    {
+      "student_id": "4eda6505-141f-45ed-b969-e0eafed085f2",
+      "friend_id": "5a583a2e-d5da-4b27-8143-5449df758808",
+      "strength": 0.66
+    },
+    {
+      "student_id": "c3e80db5-e4e1-4b02-a4e3-701d9351de81",
+      "friend_id": "e01c1cb0-5fa6-413c-b83c-4414b8cbb520",
+      "strength": 0.5
+    },
+    {
+      "student_id": "a34b4320-f05f-4d32-ba3a-3dc9779959c8",
+      "friend_id": "c3e80db5-e4e1-4b02-a4e3-701d9351de81",
+      "strength": 0.54
+    },
+    {
+      "student_id": "07089b74-5128-4648-a796-7f6914f22c5d",
+      "friend_id": "c3e80db5-e4e1-4b02-a4e3-701d9351de81",
+      "strength": 0.93
+    },
+    {
+      "student_id": "3936eacd-1a25-4b7a-83a4-25c0414749ba",
+      "friend_id": "c3e80db5-e4e1-4b02-a4e3-701d9351de81",
+      "strength": 0.32
+    },
+    {
+      "student_id": "3936eacd-1a25-4b7a-83a4-25c0414749ba",
+      "friend_id": "394c8f91-8f39-4a41-9e3b-2100061e6d6f",
+      "strength": 0.45
+    },
+    {
+      "student_id": "3936eacd-1a25-4b7a-83a4-25c0414749ba",
+      "friend_id": "4eda6505-141f-45ed-b969-e0eafed085f2",
+      "strength": 0.66
+    },
+    {
+      "student_id": "3936eacd-1a25-4b7a-83a4-25c0414749ba",
+      "friend_id": "d04d1045-52bf-4d6f-97a7-6f4579a8dbf4",
+      "strength": 0.51
+    },
+    {
+      "student_id": "5eb09744-585e-4d0c-84af-0feb89390da0",
+      "friend_id": "dfcbf05d-11f0-4d7e-8683-edee49a47db7",
+      "strength": 0.33
+    },
+    {
+      "student_id": "33e7faba-5ee4-43c1-8e03-b23fced3ade2",
+      "friend_id": "5eb09744-585e-4d0c-84af-0feb89390da0",
+      "strength": 0.75
+    },
+    {
+      "student_id": "5eb09744-585e-4d0c-84af-0feb89390da0",
+      "friend_id": "5f583c4e-c2a9-40b6-b2ff-fac40cc3e485",
+      "strength": 0.34
+    },
+    {
+      "student_id": "5eb09744-585e-4d0c-84af-0feb89390da0",
+      "friend_id": "a34b4320-f05f-4d32-ba3a-3dc9779959c8",
+      "strength": 0.35
+    },
+    {
+      "student_id": "3936eacd-1a25-4b7a-83a4-25c0414749ba",
+      "friend_id": "bb7fad0d-f3aa-4e63-b6ee-98eb0036c948",
+      "strength": 0.48
+    }
+  ],
+  "mentorships": [
+    {
+      "mentor_id": "e01c1cb0-5fa6-413c-b83c-4414b8cbb520",
+      "mentee_id": "9b92ddc1-95ab-46fe-98d3-3450f327d280",
+      "focus_area": "Build Portfolio"
+    },
+    {
+      "mentor_id": "3fc00c60-d15e-483c-ae70-10753d4779b5",
+      "mentee_id": "e36f9314-b048-464a-9e50-cd092d41ce1f",
+      "focus_area": "Hackathon Prep"
+    },
+    {
+      "mentor_id": "dfcbf05d-11f0-4d7e-8683-edee49a47db7",
+      "mentee_id": "c26687d2-5deb-4fd6-89f8-575e1a170d06",
+      "focus_area": "Learn ML"
+    },
+    {
+      "mentor_id": "d5a36ff4-2f25-433b-92e3-845fd92d6751",
+      "mentee_id": "d04d1045-52bf-4d6f-97a7-6f4579a8dbf4",
+      "focus_area": "Learn React"
+    },
+    {
+      "mentor_id": "b8c1423e-5092-4c79-bf0a-26b198184ccb",
+      "mentee_id": "7cecc571-2248-4037-9985-80a7a47c22b7",
+      "focus_area": "Hackathon Prep"
+    },
+    {
+      "mentor_id": "ac5c4783-db3f-487a-9b97-c71fe1376f7d",
+      "mentee_id": "e671df7b-2587-4038-b7a5-eec245c2ade8",
+      "focus_area": "Crack GATE"
+    },
+    {
+      "mentor_id": "bf1ee7b4-ea49-4c5b-ab67-0ddfa3479b68",
+      "mentee_id": "e36f9314-b048-464a-9e50-cd092d41ce1f",
+      "focus_area": "Learn React"
+    },
+    {
+      "mentor_id": "630a3b76-497a-4a0a-a3d5-7cbb9174af78",
+      "mentee_id": "00b8f111-c6e8-4e11-af91-a50fe80450cd",
+      "focus_area": "Get Internship"
+    },
+    {
+      "mentor_id": "df3bf4a6-dc76-4b82-bab4-025bb547a258",
+      "mentee_id": "e36f9314-b048-464a-9e50-cd092d41ce1f",
+      "focus_area": "Improve CGPA"
+    },
+    {
+      "mentor_id": "5f583c4e-c2a9-40b6-b2ff-fac40cc3e485",
+      "mentee_id": "bb37bcca-c95e-4346-9335-ba592eb114ff",
+      "focus_area": "Get Internship"
+    },
+    {
+      "mentor_id": "73d0788d-19a0-4465-b7eb-160b2df11291",
+      "mentee_id": "dbb60028-6bf2-409c-821e-c49c3cd5ae92",
+      "focus_area": "Learn DSA"
+    },
+    {
+      "mentor_id": "2617dbf9-782a-4595-b489-0d1a047e6797",
+      "mentee_id": "d04d1045-52bf-4d6f-97a7-6f4579a8dbf4",
+      "focus_area": "Improve CGPA"
+    },
+    {
+      "mentor_id": "0a6a337f-309c-459e-9337-a48d4af3f8a0",
+      "mentee_id": "19fbfda2-104e-4c88-9a8d-4ada386944d1",
+      "focus_area": "Build Portfolio"
+    },
+    {
+      "mentor_id": "0e9c64c2-f53d-4558-ae6d-f849f1a6296e",
+      "mentee_id": "d04d1045-52bf-4d6f-97a7-6f4579a8dbf4",
+      "focus_area": "Improve CGPA"
+    },
+    {
+      "mentor_id": "b4b93004-7aa0-4662-bffa-111d0331d1af",
+      "mentee_id": "d04d1045-52bf-4d6f-97a7-6f4579a8dbf4",
+      "focus_area": "Gym Transformation"
+    },
+    {
+      "mentor_id": "2e871eba-a1a4-45ab-812f-e8117b6e1971",
+      "mentee_id": "e671df7b-2587-4038-b7a5-eec245c2ade8",
+      "focus_area": "Learn ML"
+    },
+    {
+      "mentor_id": "4eda6505-141f-45ed-b969-e0eafed085f2",
+      "mentee_id": "394c8f91-8f39-4a41-9e3b-2100061e6d6f",
+      "focus_area": "Learn React"
+    },
+    {
+      "mentor_id": "bb7fad0d-f3aa-4e63-b6ee-98eb0036c948",
+      "mentee_id": "6d6c7e00-370c-4a0c-b3d2-7ffec9e31c7b",
+      "focus_area": "Hackathon Prep"
+    },
+    {
+      "mentor_id": "75235f8e-dcbe-47f0-9071-aa464b7574f8",
+      "mentee_id": "1a47868e-256e-4c32-aaab-5755e067c45f",
+      "focus_area": "Get Internship"
+    },
+    {
+      "mentor_id": "33e7faba-5ee4-43c1-8e03-b23fced3ade2",
+      "mentee_id": "9b92ddc1-95ab-46fe-98d3-3450f327d280",
+      "focus_area": "Crack GATE"
+    },
+    {
+      "mentor_id": "71ab5199-7e4f-4326-9a7a-64145cd1ba20",
+      "mentee_id": "c26687d2-5deb-4fd6-89f8-575e1a170d06",
+      "focus_area": "Crack GATE"
+    }
+  ]
+}

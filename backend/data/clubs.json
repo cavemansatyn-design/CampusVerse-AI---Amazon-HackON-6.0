@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Coding Club",
+    "category": "Coding"
+  },
+  {
+    "name": "Robotics Club",
+    "category": "Robotics"
+  },
+  {
+    "name": "Photography Club",
+    "category": "Photography"
+  },
+  {
+    "name": "Dance Club",
+    "category": "Dance"
+  },
+  {
+    "name": "Music Club",
+    "category": "Music"
+  },
+  {
+    "name": "Literary Club",
+    "category": "Literary"
+  },
+  {
+    "name": "Entrepreneurship Club",
+    "category": "Entrepreneurship"
+  },
+  {
+    "name": "Finance Club",
+    "category": "Finance"
+  },
+  {
+    "name": "AI Club",
+    "category": "AI"
+  },
+  {
+    "name": "Hackathon Club",
+    "category": "Hackathon"
+  },
+  {
+    "name": "Fitness Club",
+    "category": "Fitness"
+  },
+  {
+    "name": "Sports Club",
+    "category": "Sports"
+  },
+  {
+    "name": "Debate Club",
+    "category": "Debate"
+  },
+  {
+    "name": "Open Source Club",
+    "category": "Open"
+  },
+  {
+    "name": "Research Club",
+    "category": "Research"
+  },
+  {
+    "name": "Design Club",
+    "category": "Design"
+  }
+]

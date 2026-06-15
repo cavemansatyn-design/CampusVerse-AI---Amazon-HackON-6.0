@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CampusOS - Choose Companion</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;family=Anton&amp;family=Hanken+Grotesk:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-fixed": "#001e2c",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed-dim": "#e9c400",
+                        "error": "#ba1a1a",
+                        "background": "#f9f9f7",
+                        "on-primary-fixed": "#221b00",
+                        "inverse-primary": "#e9c400",
+                        "surface": "#f9f9f7",
+                        "secondary-fixed-dim": "#c6c6c6",
+                        "on-secondary-fixed": "#1b1b1b",
+                        "secondary": "#5e5e5e",
+                        "on-tertiary-fixed-variant": "#004c69",
+                        "inverse-surface": "#2f3130",
+                        "inverse-on-surface": "#f1f1ef",
+                        "on-error-container": "#93000a",
+                        "on-background": "#1a1c1b",
+                        "surface-dim": "#dadad8",
+                        "on-tertiary-container": "#00668a",
+                        "tertiary-fixed-dim": "#7ad0ff",
+                        "surface-container-low": "#f4f4f2",
+                        "surface-tint": "#705d00",
+                        "secondary-container": "#e2e2e2",
+                        "on-surface-variant": "#4d4732",
+                        "on-primary": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "on-surface": "#1a1c1b",
+                        "surface-variant": "#e2e3e1",
+                        "on-primary-container": "#705e00",
+                        "surface-container-highest": "#e2e3e1",
+                        "surface-container": "#eeeeec",
+                        "tertiary": "#00668a",
+                        "primary": "#705d00",
+                        "surface-bright": "#f9f9f7",
+                        "primary-fixed": "#ffe16d",
+                        "surface-container-high": "#e8e8e6",
+                        "tertiary-fixed": "#c3e8ff",
+                        "on-primary-fixed-variant": "#544600",
+                        "tertiary-container": "#aee0ff",
+                        "error-container": "#ffdad6",
+                        "on-secondary-fixed-variant": "#474747",
+                        "on-secondary-container": "#646464",
+                        "primary-container": "#ffd700",
+                        "outline-variant": "#d0c6ab",
+                        "outline": "#7e775f",
+                        "secondary-fixed": "#e2e2e2",
+                        "on-tertiary": "#ffffff",
+                        "on-error": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "unit": "8px",
+                        "shadow-offset": "8px",
+                        "border-width": "4px",
+                        "margin-mobile": "16px",
+                        "margin-desktop": "40px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "label-sm": ["Space Mono"],
+                        "label-bold": ["Space Mono"],
+                        "display-lg": ["Anton"],
+                        "body-md": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "headline-md": ["Anton"],
+                        "headline-lg-mobile": ["Anton"],
+                        "headline-lg": ["Anton"]
+                    },
+                    "fontSize": {
+                        "label-sm": ["12px", { "lineHeight": "1.2", "fontWeight": "400" }],
+                        "label-bold": ["14px", { "lineHeight": "1.2", "fontWeight": "700" }],
+                        "display-lg": ["72px", { "lineHeight": "1.0", "letterSpacing": "0.02em", "fontWeight": "400" }],
+                        "body-md": ["16px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "500" }],
+                        "headline-md": ["32px", { "lineHeight": "1.2", "fontWeight": "400" }],
+                        "headline-lg-mobile": ["32px", { "lineHeight": "1.1", "fontWeight": "400" }],
+                        "headline-lg": ["48px", { "lineHeight": "1.1", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .halftone-bg {
+            background-image: radial-gradient(var(--tw-colors-on-surface-variant) 1.5px, transparent 1.5px);
+            background-size: 16px 16px;
+            opacity: 0.15;
+        }
+        
+        /* Custom scrollbar for comic feel */
+        ::-webkit-scrollbar {
+            width: 12px;
+            border-left: 4px solid var(--tw-colors-on-background);
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--tw-colors-surface-container);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--tw-colors-primary);
+            border: 4px solid var(--tw-colors-on-background);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md h-screen w-screen overflow-hidden flex selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- SideNavBar Component (From JSON) -->
+<nav class="hidden md:flex flex-col h-full border-r-4 border-on-background docked left-0 w-64 bg-surface shadow-[8px_0px_0px_0px_rgba(0,0,0,1)] z-20">
+<!-- Header -->
+<div class="p-6 border-b-4 border-on-background flex flex-col items-center justify-center text-center bg-primary-fixed">
+<div class="w-20 h-20 rounded-full border-4 border-on-background overflow-hidden shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] mb-4 bg-surface-container-lowest">
+<img alt="Student Hero Avatar" class="w-full h-full object-cover" data-alt="A stylized, cel-shaded portrait of a confident young student with vibrant hair, drawn in a bold comic-book pop-art style with thick black outlines and flat, saturated colors." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhnVg1EA8YSGop5NiDPGPjAZqwrlAw9120E2lhPOB1H1esHChtgbaNSZM5RecZ8tf8RYQpAyqTS54I2g0A7cqQIleI-9y0lvnR6fq9E5JpibgzyuZrplkdBulDQiF0G9RGOABKsqJFRfCmGmGKS_8xt4U6YK46VOtXP9DRbI61rnSjTXAFKvE1bPCUZ_zx9Hk_yVIVKg2Xje1ZsUauPbyZVzvHiM7Q_dUJEu_zoIaJMnENAEStW8arzsvCIAvYO1kNnLnM4V8BFRc"/>
+</div>
+<h1 class="font-headline-md text-headline-md text-on-primary-fixed uppercase tracking-tight leading-none mb-1">HERO UNLEASHED</h1>
+<p class="font-label-bold text-label-bold text-on-primary-fixed-variant">Level 42 Student</p>
+</div>
+<!-- Navigation Links -->
+<div class="flex-1 overflow-y-auto py-4">
+<ul class="flex flex-col gap-2 px-4">
+<li>
+<a class="flex items-center gap-3 px-4 py-3 border-4 border-transparent text-on-surface-variant hover:bg-surface-container-high hover:translate-x-2 transition-transform font-label-bold text-label-bold" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">home</span>
+<span>Mission Control</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-3 px-4 py-3 border-4 border-transparent text-on-surface-variant hover:bg-surface-container-high hover:translate-x-2 transition-transform font-label-bold text-label-bold" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">chat_bubble</span>
+<span>The Gutter</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-3 px-4 py-3 border-4 border-transparent text-on-surface-variant hover:bg-surface-container-high hover:translate-x-2 transition-transform font-label-bold text-label-bold" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">school</span>
+<span>Academy</span>
+</a>
+</li>
+<!-- ACTIVE STATE: Squads -> Companions mapping -->
+<li>
+<a class="flex items-center gap-3 px-4 py-3 bg-primary-container text-on-primary-container border-y-4 border-x-4 border-on-background font-bold shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 transition-transform font-label-bold text-label-bold" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">group</span>
+<span>Squads</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-3 px-4 py-3 border-4 border-transparent text-on-surface-variant hover:bg-surface-container-high hover:translate-x-2 transition-transform font-label-bold text-label-bold" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">inventory_2</span>
+<span>Vault</span>
+</a>
+</li>
+</ul>
+</div>
+<!-- Footer / CTA -->
+<div class="p-4 border-t-4 border-on-background bg-surface-container-low">
+<button class="w-full py-3 px-4 bg-error text-on-error border-4 border-on-background font-headline-md text-headline-md shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-1 hover:translate-x-1 hover:shadow-none transition-all mb-4 uppercase">
+                SAVE PROGRESS
+            </button>
+<ul class="flex flex-col gap-2">
+<li>
+<a class="flex items-center gap-3 px-4 py-2 text-on-surface-variant hover:bg-surface-container-high transition-colors font-label-bold text-label-bold" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">settings</span>
+<span>Settings</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-3 px-4 py-2 text-on-surface-variant hover:bg-surface-container-high transition-colors font-label-bold text-label-bold" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">logout</span>
+<span>Logout</span>
+</a>
+</li>
+</ul>
+</div>
+</nav>
+<!-- Main Content Area -->
+<main class="flex-1 relative overflow-y-auto bg-surface flex flex-col z-10">
+<!-- Halftone Overlay -->
+<div class="absolute inset-0 halftone-bg pointer-events-none z-0"></div>
+<!-- Header Panel -->
+<header class="relative z-10 px-margin-mobile md:px-margin-desktop py-8 border-b-4 border-on-background bg-primary-fixed shadow-[0px_8px_0px_0px_rgba(0,0,0,1)]">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-end justify-between gap-6">
+<div>
+<span class="inline-block bg-on-background text-surface-container-lowest font-label-bold text-label-bold px-3 py-1 mb-4 border-2 border-on-background shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] rotate-[-2deg]">
+                        STEP 01: INITIALIZE
+                    </span>
+<h2 class="font-display-lg text-display-lg text-on-background uppercase tracking-tighter leading-none" style="text-shadow: 4px 4px 0px #ffffff, 8px 8px 0px #000000;">
+                        CHOOSE YOUR<br/>COMPANION
+                    </h2>
+</div>
+<div class="bg-surface-container-lowest border-4 border-on-background p-4 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] max-w-sm rotate-[1deg]">
+<p class="font-label-bold text-label-bold text-on-surface mb-2 border-b-2 border-on-background pb-2">
+<span class="material-symbols-outlined align-middle mr-1 text-error" style="font-variation-settings: 'FILL' 1;">warning</span>
+                        WARNING: PERMANENT BOND
+                    </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-tight">
+                        Select your digital operative carefully. This companion will assist you in all academic raids and social combat zones.
+                    </p>
+</div>
+</div>
+</header>
+<!-- Roster Grid -->
+<div class="relative z-10 flex-1 px-margin-mobile md:px-margin-desktop py-12 max-w-7xl mx-auto w-full">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+<!-- Card 1: DRAGON (Selected) -->
+<article class="companion-card relative bg-surface-container-lowest border-4 border-on-background shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] flex flex-col cursor-pointer transition-all duration-200 transform -translate-y-2 -translate-x-2 group outline outline-4 outline-primary-fixed outline-offset-4 ring-4 ring-on-background ring-offset-8" onclick="selectCard(this)">
+<!-- Selected Sticker -->
+<div class="selected-sticker absolute -top-6 -right-6 bg-error text-on-error border-4 border-on-background font-headline-md text-headline-md px-4 py-1 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] rotate-[12deg] z-20 transition-transform group-hover:scale-110">
+                        BONDED!
+                    </div>
+<!-- Image Panel -->
+<div class="relative h-64 border-b-4 border-on-background overflow-hidden bg-primary-container p-2">
+<!-- Striped background effect -->
+<div class="absolute inset-0 opacity-20" style="background: repeating-linear-gradient(45deg, transparent, transparent 10px, var(--tw-colors-on-background) 10px, var(--tw-colors-on-background) 20px);"></div>
+<img alt="Mecha Dragon" class="relative z-10 w-full h-full object-contain filter drop-shadow-[4px_4px_0px_rgba(0,0,0,1)] group-hover:scale-105 transition-transform duration-300" data-alt="A fierce, stylized mechanical dragon head with glowing orange accents, rendered in a vibrant comic-book pop-art style with thick black outlines and flat cel-shaded colors. The background is a stark white to emphasize the character design. The mood is energetic and high-octane." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDejrDvvFmJjDy9UydIJP0m-gACyJqjQubLd7Jt5vKksD5R_9uGovvi3XaHPfhjSIPffjoPMblvXeEN0qmCVdhQz-BPN7aIRSM94vVozmkk-AROLmcdc8yS6CulEpk68cAsxNuG1loJT_pP1vkSmMxzDa36RFI4Dw59mSfX662qB912KePsSmur70Pr2cJX5lIiA08pEU7SPWV6UWnHPflnPRmJe488GnBPX4WN1O401v3yUd3FYDRG211zpOZy-QL01qHk3z1YRkQ"/>
+</div>
+<!-- Info Panel -->
+<div class="p-4 flex-1 flex flex-col bg-surface">
+<div class="flex justify-between items-end mb-4 border-b-4 border-on-background pb-2">
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile uppercase text-on-background leading-none">IGNIS</h3>
+<span class="font-label-bold text-label-bold bg-on-background text-surface-container-lowest px-2 py-1">CLASS: ASSAULT</span>
+</div>
+<div class="grid grid-cols-2 gap-x-4 gap-y-2 mb-6">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Power</span>
+<div class="h-3 w-full border-2 border-on-background bg-surface-container-highest mt-1">
+<div class="h-full bg-error w-11/12 border-r-2 border-on-background"></div>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Speed</span>
+<div class="h-3 w-full border-2 border-on-background bg-surface-container-highest mt-1">
+<div class="h-full bg-primary-fixed w-3/4 border-r-2 border-on-background"></div>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Logic</span>
+<div class="h-3 w-full border-2 border-on-background bg-surface-container-highest mt-1">
+<div class="h-full bg-tertiary w-1/2 border-r-2 border-on-background"></div>
+</div>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-auto">High damage output. Excels in deadline crunch scenarios.</p>
+</div>
+</article>
+<!-- Card 2: FOX -->
+<article class="companion-card relative bg-surface-container-lowest border-4 border-on-background shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex flex-col cursor-pointer transition-all duration-200 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[16px_16px_0px_0px_rgba(0,0,0,1)] group" onclick="selectCard(this)">
+<div class="selected-sticker absolute -top-6 -right-6 bg-error text-on-error border-4 border-on-background font-headline-md text-headline-md px-4 py-1 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] rotate-[12deg] z-20 transition-transform hidden">
+                        BONDED!
+                    </div>
+<div class="relative h-64 border-b-4 border-on-background overflow-hidden bg-tertiary-container p-2">
+<div class="absolute inset-0 opacity-10 halftone-bg"></div>
+<img alt="Cyber Fox" class="relative z-10 w-full h-full object-contain filter drop-shadow-[4px_4px_0px_rgba(0,0,0,1)] group-hover:scale-105 transition-transform duration-300 grayscale group-hover:grayscale-0" data-alt="A cunning, cybernetic fox character with sleek angular features and neon cyan highlights, rendered in a dynamic manga-inspired pop-art style with heavy black inking and hard-edged shadows. The character exudes speed and agility against a flat, neutral background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCA1NUIqglZbA4wwo56ZZPYs1NBXNhOmFhmdizoFF8JeR6evUJe7CU30ulF12n7XKUS9FnPs3P4YowzYa_kDMnnJUUV5ptCPZHoBsFP_7CE2qjupBbMNPf21odJMYlAFnDzK7X14Ge_GtMwFQMm6WYxcVsvlZL8O_ZC7Gens0ABC4TMZEu3xbG4ZVUmc6wIEw4NpZF9jarOeDjU53tDLgo3CzVY2tRTPxoRHiHMoErEW19OjfVLhQDWe_VYg9wkIVO67dDF4AlojgA"/>
+</div>
+<div class="p-4 flex-1 flex flex-col bg-surface-container-lowest group-hover:bg-surface transition-colors">
+<div class="flex justify-between items-end mb-4 border-b-4 border-on-background pb-2">
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile uppercase text-on-background leading-none">KITSUNE</h3>
+<span class="font-label-bold text-label-bold bg-on-background text-surface-container-lowest px-2 py-1">CLASS: STEALTH</span>
+</div>
+<div class="grid grid-cols-2 gap-x-4 gap-y-2 mb-6 opacity-70 group-hover:opacity-100 transition-opacity">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Power</span>
+<div class="h-3 w-full border-2 border-on-background bg-surface-container-highest mt-1">
+<div class="h-full bg-error w-2/5 border-r-2 border-on-background"></div>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Speed</span>
+<div class="h-3 w-full border-2 border-on-background bg-surface-container-highest mt-1">
+<div class="h-full bg-primary-fixed w-full border-r-2 border-on-background"></div>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Logic</span>
+<div class="h-3 w-full border-2 border-on-background bg-surface-container-highest mt-1">
+<div class="h-full bg-tertiary w-3/4 border-r-2 border-on-background"></div>
+</div>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-auto">Unmatched agility. Perfect for navigating complex social politics.</p>
+</div>
+</article>
+<!-- Card 3: ROBOT -->
+<article class="companion-card relative bg-surface-container-lowest border-4 border-on-background shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex flex-col cursor-pointer transition-all duration-200 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[16px_16px_0px_0px_rgba(0,0,0,1)] group" onclick="selectCard(this)">
+<div class="selected-sticker absolute -top-6 -right-6 bg-error text-on-error border-4 border-on-background font-headline-md text-headline-md px-4 py-1 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] rotate-[12deg] z-20 transition-transform hidden">
+                        BONDED!
+                    </div>
+<div class="relative h-64 border-b-4 border-on-background overflow-hidden bg-secondary-container p-2">
+<div class="absolute inset-0" style="background-image: repeating-linear-gradient(0deg, transparent, transparent 19px, var(--tw-colors-on-background) 19px, var(--tw-colors-on-background) 20px);"></div>
+<img alt="Unit-7 Robot" class="relative z-10 w-full h-full object-contain filter drop-shadow-[4px_4px_0px_rgba(0,0,0,1)] group-hover:scale-105 transition-transform duration-300 grayscale group-hover:grayscale-0" data-alt="A clunky, retro-futuristic robot companion with a square head, single glowing yellow eye, and heavy metallic plating, drawn in a bold comic-book aesthetic. Thick black outlines, solid color fills, and dramatic offset shadows give it a tactile, printed-on-paper feel." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvMDoU1vrw6gYXiYFSvgA5eRbrT2L9yWlDIJHgbxkn276a0KFf_wuOJ5ysZ-V0l2ZmsWdX5puxintvM3btdUmg5c2y4EEgtVil6j1Xj2BVZCqWTmaMM1URwndPoiaxiFIH4QSHkBGIEwcOFEU8vY6Hh3FoLd5D8jSBiRdps07xaoawk5QTnGFzlj4iYaV1lIUchU79FjzAX9RWbRGKpJtta4HRbK6_mM-AnT-YYAtnpwAPQeW1sthF33pdBGErsNchmg9lEXmm7tc"/>
+</div>
+<div class="p-4 flex-1 flex flex-col bg-surface-container-lowest group-hover:bg-surface transition-colors">
+<div class="flex justify-between items-end mb-4 border-b-4 border-on-background pb-2">
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile uppercase text-on-background leading-none">UNIT-7</h3>
+<span class="font-label-bold text-label-bold bg-on-background text-surface-container-lowest px-2 py-1">CLASS: TANK</span>
+</div>
+<div class="grid grid-cols-2 gap-x-4 gap-y-2 mb-6 opacity-70 group-hover:opacity-100 transition-opacity">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Power</span>
+<div class="h-3 w-full border-2 border-on-background bg-surface-container-highest mt-1">
+<div class="h-full bg-error w-4/5 border-r-2 border-on-background"></div>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Speed</span>
+<div class="h-3 w-full border-2 border-on-background bg-surface-container-highest mt-1">
+<div class="h-full bg-primary-fixed w-1/4 border-r-2 border-on-background"></div>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Logic</span>
+<div class="h-3 w-full border-2 border-on-background bg-surface-container-highest mt-1">
+<div class="h-full bg-tertiary w-[95%] border-r-2 border-on-background"></div>
+</div>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-auto">Absolute unit. Flawless logic processing for heavy coursework.</p>
+</div>
+</article>
+</div>
+<!-- Bottom CTA -->
+<div class="mt-16 flex justify-center pb-12">
+<button class="px-12 py-4 bg-on-background text-surface-container-lowest border-4 border-transparent font-headline-md text-headline-md shadow-[8px_8px_0px_0px_var(--tw-colors-primary-fixed)] hover:bg-primary-fixed hover:text-on-primary-fixed hover:border-on-background hover:translate-y-1 hover:translate-x-1 hover:shadow-none transition-all uppercase tracking-wide">
+                    CONFIRM LOADOUT
+                </button>
+</div>
+</div>
+</main>
+<script>
+        // Simple script to handle selection logic for the demo
+        function selectCard(clickedCard) {
+            // Remove selected state from all cards
+            const allCards = document.querySelectorAll('.companion-card');
+            allCards.forEach(card => {
+                // Reset structural classes
+                card.classList.remove('-translate-y-2', '-translate-x-2', 'outline', 'outline-4', 'outline-primary-fixed', 'outline-offset-4', 'ring-4', 'ring-on-background', 'ring-offset-8');
+                card.classList.add('shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]');
+                card.classList.remove('shadow-[12px_12px_0px_0px_rgba(0,0,0,1)]');
+                
+                // Hide sticker
+                const sticker = card.querySelector('.selected-sticker');
+                if(sticker) sticker.classList.add('hidden');
+                
+                // Reset grayscale on images inside non-selected cards
+                const img = card.querySelector('img');
+                if(img && card !== clickedCard) {
+                    img.classList.add('grayscale');
+                }
+            });
+
+            // Add selected state to clicked card
+            clickedCard.classList.remove('shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]');
+            clickedCard.classList.add('-translate-y-2', '-translate-x-2', 'shadow-[12px_12px_0px_0px_rgba(0,0,0,1)]', 'outline', 'outline-4', 'outline-primary-fixed', 'outline-offset-4', 'ring-4', 'ring-on-background', 'ring-offset-8');
+            
+            // Show sticker
+            const activeSticker = clickedCard.querySelector('.selected-sticker');
+            if(activeSticker) activeSticker.classList.remove('hidden');
+            
+            // Remove grayscale from active image
+            const activeImg = clickedCard.querySelector('img');
+            if(activeImg) activeImg.classList.remove('grayscale');
+        }
+    </script>
+</body></html>
