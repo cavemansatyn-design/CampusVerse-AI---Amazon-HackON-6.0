@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: campusverse-api
+    runtime: docker
+    rootDir: backend
+    dockerfilePath: Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: CORS_ORIGINS
+        value: http://localhost:3000
+      - key: DEMO_MODE
+        value: "true"
